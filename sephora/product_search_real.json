@@ -1,0 +1,1288 @@
+{
+  "categories": [
+    {
+      "displayName": "Fragrance",
+      "nodeStr": "cat160006",
+      "recordCount": "5"
+    },
+    {
+      "displayName": "Gifts",
+      "nodeStr": "cat60270",
+      "recordCount": "7"
+    },
+    {
+      "displayName": "Skincare",
+      "nodeStr": "cat150006",
+      "recordCount": "6"
+    },
+    {
+      "displayName": "Mini Size",
+      "nodeStr": "cat1830032",
+      "recordCount": "3"
+    },
+    {
+      "displayName": "Bath & Body",
+      "nodeStr": "cat140014",
+      "recordCount": "1"
+    },
+    {
+      "displayName": "Clean at Sephora",
+      "nodeStr": "cat3780034",
+      "recordCount": "8"
+    },
+    {
+      "displayName": "Hair",
+      "nodeStr": "cat130038",
+      "recordCount": "5"
+    },
+    {
+      "displayName": "Men",
+      "nodeStr": "cat130044",
+      "recordCount": "1"
+    },
+    {
+      "displayName": "Makeup",
+      "nodeStr": "cat140006",
+      "recordCount": "3"
+    },
+    {
+      "displayName": "Luxury Beauty",
+      "nodeStr": "cat1100057",
+      "recordCount": "1"
+    }
+  ],
+  "features": {
+    "a_a_test": false,
+    "auto_generated_refined_query_rules": true,
+    "custom_autosuggest_ui": false,
+    "disable_test_only_global_rules_browse": false,
+    "disable_test_only_global_rules_search": false,
+    "filter_items": true,
+    "manual_searchandizing": true,
+    "personalization": true,
+    "query_items": true,
+    "use_cognitive_embeddings": true,
+    "use_enriched_attributes_as_fuzzy_searchable": false,
+    "use_reranker_service_for_all": false,
+    "use_reranker_service_for_browse": true,
+    "use_reranker_service_for_search": true
+  },
+  "keyword": "this is a search query",
+  "products": [
+    {
+      "brandName": "Sol de Janeiro",
+      "currentSku": {
+        "imageAltText": "Sol de Janeiro - Sundays in Rio Warm Vanilla Hair & Body Perfume Mist",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": true,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": true,
+        "listPrice": "$26.00",
+        "skuId": "2888626"
+      },
+      "displayName": "Sundays in Rio Warm Vanilla Hair & Body Perfume Mist",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2888626-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2888626-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2888626-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2888626-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2888626-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P517914",
+      "productName": "Sundays in Rio Warm Vanilla Hair & Body Perfume Mist",
+      "rating": "4.2757",
+      "reviews": "214",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/fall-le-mist-sundays-in-rio-P517914?skuId=2888626",
+      "url": "https://www.sephora.com/api/catalog/products/P517914?preferedSku=2888626",
+      "sponsored": false
+    },
+    {
+      "brandName": "Gisou",
+      "currentSku": {
+        "imageAltText": "Gisou - Honey Infused Hydrating Lip Oil",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": true,
+        "listPrice": "$28.00",
+        "skuId": "2858033"
+      },
+      "displayName": "Honey Infused Hydrating Lip Oil",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2858033-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image135": "https://www.sephora.com/productimages/sku/s2858033-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image250": "https://www.sephora.com/productimages/sku/s2858033-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image450": "https://www.sephora.com/productimages/sku/s2858033-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "altImage": "https://www.sephora.com/productimages/sku/s2858033-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "moreColors": 7,
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P505233",
+      "productName": "Honey Infused Hydrating Lip Oil",
+      "rating": "4.243",
+      "reviews": "2461",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/gisou-lip-oil-P505233?skuId=2858033",
+      "url": "https://www.sephora.com/api/catalog/products/P505233?preferedSku=2858033",
+      "sponsored": false
+    },
+    {
+      "brandName": "Glow Recipe",
+      "currentSku": {
+        "imageAltText": "Glow Recipe - Glass Balm Lip Treatment for Shine & Hydration",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": true,
+        "listPrice": "$22.00",
+        "skuId": "2874329"
+      },
+      "displayName": "Glass Balm Lip Treatment for Shine & Hydration",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2874329-av-1202505141034527740700-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "image135": "https://www.sephora.com/productimages/sku/s2874329-av-1202505141034527740700-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "image250": "https://www.sephora.com/productimages/sku/s2874329-av-1202505141034527740700-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "image450": "https://www.sephora.com/productimages/sku/s2874329-av-1202505141034527740700-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "altImage": "https://www.sephora.com/productimages/sku/s2874329-av-1202505141034527740700-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "moreColors": 4,
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P515960",
+      "productName": "Glass Balm Lip Treatment for Shine & Hydration",
+      "rating": "4.294",
+      "reviews": "449",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/glow-recipe-glass-balm-lip-treatment-for-shine-and-hydration-P515960?skuId=2874329",
+      "url": "https://www.sephora.com/api/catalog/products/P515960?preferedSku=2874329",
+      "sponsored": false
+    },
+    {
+      "brandName": "dae",
+      "currentSku": {
+        "imageAltText": "dae - Freshly Squeezed Wash Set",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$48.00",
+        "salePrice": "$33.60",
+        "valuePrice": "$72.00",
+        "skuId": "2848935",
+        "skuType": "wf"
+      },
+      "displayName": "Freshly Squeezed Wash Set",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2848935-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2848935-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2848935-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2848935-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2848935-main-zoom.jpg?imwidth=270",
+      "onSaleData": "FULL",
+      "pickupEligible": false,
+      "productId": "P515995",
+      "productName": "Freshly Squeezed Wash Set",
+      "rating": "4.1818",
+      "reviews": "11",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/freshly-squeezed-wash-set-P515995?skuId=2848935",
+      "url": "https://www.sephora.com/api/catalog/products/P515995?preferedSku=2848935",
+      "sponsored": false
+    },
+    {
+      "brandName": "Sol de Janeiro",
+      "currentSku": {
+        "imageAltText": "Sol de Janeiro - Flor M\u00edstica Hair and Body Fragrance Mist",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$26.00",
+        "skuId": "2856375"
+      },
+      "displayName": "Flor M\u00edstica Hair and Body Fragrance Mist",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2856375-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2856375-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2856375-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2856375-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2856375-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P515215",
+      "productName": "Flor M\u00edstica Hair and Body Fragrance Mist",
+      "rating": "4.4954",
+      "reviews": "329",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/sol-de-janeiro-flor-mistica-mist-P515215?skuId=2856375",
+      "url": "https://www.sephora.com/api/catalog/products/P515215?preferedSku=2856375",
+      "sponsored": false
+    },
+    {
+      "brandName": "Sol de Janeiro",
+      "currentSku": {
+        "imageAltText": "Sol de Janeiro - Limited Edition Sol Tote + Body Essentials Set",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": true,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": true,
+        "listPrice": "$49.00",
+        "valuePrice": "$65.00",
+        "skuId": "2888105",
+        "skuType": "h"
+      },
+      "displayName": "Limited Edition Sol Tote + Body Essentials Set",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2888105-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2888105-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2888105-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2888105-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2888105-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P518741",
+      "productName": "Limited Edition Sol Tote + Body Essentials Set",
+      "rating": "4.3659",
+      "reviews": "41",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/sol-de-janeiro-bum-bum-summer-25-set-le-P518741?skuId=2888105",
+      "url": "https://www.sephora.com/api/catalog/products/P518741?preferedSku=2888105",
+      "sponsored": false
+    },
+    {
+      "brandName": "Sol de Janeiro",
+      "currentSku": {
+        "imageAltText": "Sol de Janeiro - \u00c1gua M\u00edstica Hair and Body Fragrance Mist",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$26.00",
+        "skuId": "2856359"
+      },
+      "displayName": "\u00c1gua M\u00edstica Hair and Body Fragrance Mist",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2856359-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2856359-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2856359-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2856359-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2856359-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P515341",
+      "productName": "\u00c1gua M\u00edstica Hair and Body Fragrance Mist",
+      "rating": "4.5305",
+      "reviews": "377",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/agua-mistica-perfume-mist-P515341?skuId=2856359",
+      "url": "https://www.sephora.com/api/catalog/products/P515341?preferedSku=2856359",
+      "sponsored": false
+    },
+    {
+      "brandName": "LANEIGE",
+      "currentSku": {
+        "imageAltText": "LANEIGE - S'more Kisses Set",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$27.00",
+        "skuId": "2842490",
+        "skuType": "c"
+      },
+      "displayName": "S'more Kisses Set",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2842490-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2842490-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2842490-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2842490-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2842490-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P514942",
+      "productName": "S'more Kisses Set",
+      "rating": "4.3813",
+      "reviews": "139",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/s-more-kisses-set-P514942?skuId=2842490",
+      "url": "https://www.sephora.com/api/catalog/products/P514942?preferedSku=2842490",
+      "sponsored": false
+    },
+    {
+      "brandName": "Sol de Janeiro",
+      "currentSku": {
+        "imageAltText": "Sol de Janeiro - Dan\u00e7a M\u00edstica Hair and Body Fragrance Mist",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$26.00",
+        "skuId": "2856367"
+      },
+      "displayName": "Dan\u00e7a M\u00edstica Hair and Body Fragrance Mist",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2856367-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2856367-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2856367-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2856367-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2856367-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P515745",
+      "productName": "Dan\u00e7a M\u00edstica Hair and Body Fragrance Mist",
+      "rating": "3.8682",
+      "reviews": "311",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/danca-mistica-perfume-mist-P515745?skuId=2856367",
+      "url": "https://www.sephora.com/api/catalog/products/P515745?preferedSku=2856367",
+      "sponsored": false
+    },
+    {
+      "brandName": "Sol de Janeiro",
+      "currentSku": {
+        "imageAltText": "Sol de Janeiro - Brazilian Kiss Cupua\u00e7u Lip Butter",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$18.00",
+        "skuId": "2879245"
+      },
+      "displayName": "Brazilian Kiss Cupua\u00e7u Lip Butter",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2879245-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2879245-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2879245-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2879245-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/product/p415747-av-01-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P415747",
+      "productName": "Brazilian Kiss Cupua\u00e7u Lip Butter",
+      "rating": "4.0861",
+      "reviews": "1695",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/brazilian-kiss-cupua-u-lip-butter-P415747?skuId=2879245",
+      "url": "https://www.sephora.com/api/catalog/products/P415747?preferedSku=2879245",
+      "sponsored": false
+    },
+    {
+      "brandName": "Act+Acre",
+      "currentSku": {
+        "imageAltText": "Act+Acre - Stem Cell Shampoo For Thicker+ Fuller-Looking Hair",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$42.00",
+        "skuId": "2719698"
+      },
+      "displayName": "Stem Cell Shampoo For Thicker+ Fuller-Looking Hair",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2719698-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image135": "https://www.sephora.com/productimages/sku/s2719698-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image250": "https://www.sephora.com/productimages/sku/s2719698-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image450": "https://www.sephora.com/productimages/sku/s2719698-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "altImage": "https://www.sephora.com/productimages/sku/s2719698-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P508839",
+      "productName": "Stem Cell Shampoo For Thicker+ Fuller-Looking Hair",
+      "rating": "4.4903",
+      "reviews": "310",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/stem-cell-stimulating-cleanse-shampoo-P508839?skuId=2719698",
+      "url": "https://www.sephora.com/api/catalog/products/P508839?preferedSku=2719698",
+      "sponsored": false
+    },
+    {
+      "brandName": "Act+Acre",
+      "currentSku": {
+        "imageAltText": "Act+Acre - Stem Cell Conditioner For Thicker+ Fuller-Looking Hair",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$42.00",
+        "skuId": "2719706"
+      },
+      "displayName": "Stem Cell Conditioner For Thicker+ Fuller-Looking Hair",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2719706-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image135": "https://www.sephora.com/productimages/sku/s2719706-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image250": "https://www.sephora.com/productimages/sku/s2719706-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image450": "https://www.sephora.com/productimages/sku/s2719706-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "altImage": "https://www.sephora.com/productimages/sku/s2719706-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P508842",
+      "productName": "Stem Cell Conditioner For Thicker+ Fuller-Looking Hair",
+      "rating": "4.4714",
+      "reviews": "297",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/stem-cell-stimulating-conditioner-P508842?skuId=2719706",
+      "url": "https://www.sephora.com/api/catalog/products/P508842?preferedSku=2719706",
+      "sponsored": false
+    },
+    {
+      "brandName": "LoveShackFancy",
+      "currentSku": {
+        "imageAltText": "LoveShackFancy - Perfume Library Eau de Parfum Discovery Set",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$18.00",
+        "skuId": "2781847",
+        "skuType": "wf"
+      },
+      "displayName": "Perfume Library Eau de Parfum Discovery Set",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2781847-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image135": "https://www.sephora.com/productimages/sku/s2781847-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image250": "https://www.sephora.com/productimages/sku/s2781847-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "image450": "https://www.sephora.com/productimages/sku/s2781847-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "altImage": "https://www.sephora.com/productimages/sku/s2781847-main-zoom.jpg?imwidth=270&pb=clean-at-sephora",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P514343",
+      "productName": "Perfume Library Eau de Parfum Discovery Set",
+      "rating": "3.9104",
+      "reviews": "67",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/loveshackfancy-perfume-library-eau-de-parfum-discovery-set-P514343?skuId=2781847",
+      "url": "https://www.sephora.com/api/catalog/products/P514343?preferedSku=2781847",
+      "sponsored": false
+    },
+    {
+      "brandName": "dae",
+      "currentSku": {
+        "imageAltText": "dae - Freshly Picked Styling Trio",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": false,
+        "listPrice": "$42.00",
+        "valuePrice": "$56.00",
+        "skuId": "2848943",
+        "skuType": "wf"
+      },
+      "displayName": "Freshly Picked Styling Trio",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2848943-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2848943-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2848943-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2848943-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2848943-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P515937",
+      "productName": "Freshly Picked Styling Trio",
+      "rating": "3.6154",
+      "reviews": "13",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/freshly-picked-styling-trio-P515937?skuId=2848943",
+      "url": "https://www.sephora.com/api/catalog/products/P515937?preferedSku=2848943",
+      "sponsored": false
+    },
+    {
+      "brandName": "Dieux",
+      "currentSku": {
+        "imageAltText": "Dieux - The Dieux-It-All Tote",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": true,
+        "isOnlineOnly": true,
+        "isSephoraExclusive": false,
+        "listPrice": "$25.00",
+        "skuId": "2916005"
+      },
+      "displayName": "The Dieux-It-All Tote",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2916005-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2916005-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2916005-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2916005-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2916005-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P519524",
+      "productName": "The Dieux-It-All Tote",
+      "rating": "3.5",
+      "reviews": "2",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/the-dieux-it-all-tote-P519524?skuId=2916005",
+      "url": "https://www.sephora.com/api/catalog/products/P519524?preferedSku=2916005",
+      "sponsored": false
+    },
+    {
+      "brandName": "The Outset",
+      "currentSku": {
+        "imageAltText": "The Outset - Lip Oasis\u2122 Glossy Treatment",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": true,
+        "isSephoraExclusive": false,
+        "listPrice": "$28.00",
+        "skuId": "2816957"
+      },
+      "displayName": "Lip Oasis\u2122 Glossy Treatment",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2816957-main-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "image135": "https://www.sephora.com/productimages/sku/s2816957-main-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "image250": "https://www.sephora.com/productimages/sku/s2816957-main-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "image450": "https://www.sephora.com/productimages/sku/s2816957-main-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "altImage": "https://www.sephora.com/productimages/sku/s2816957-main-zoom.jpg?imwidth=270&pb=clean-planet-aware",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P515779",
+      "productName": "Lip Oasis\u2122 Glossy Treatment",
+      "rating": "4.0313",
+      "reviews": "32",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/lip-oasis-glossy-treatment-P515779?skuId=2816957",
+      "url": "https://www.sephora.com/api/catalog/products/P515779?preferedSku=2816957",
+      "sponsored": false
+    },
+    {
+      "brandName": "Sol de Janeiro",
+      "currentSku": {
+        "imageAltText": "Sol de Janeiro - Brazilian Glossy\u2122 Nourishing Anti-Frizz Hair Oil",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": false,
+        "isLimitedTimeOffer": false,
+        "isNew": false,
+        "isOnlineOnly": false,
+        "isSephoraExclusive": true,
+        "listPrice": "$36.00",
+        "skuId": "2535292"
+      },
+      "displayName": "Brazilian Glossy\u2122 Nourishing Anti-Frizz Hair Oil",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2535292-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2535292-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2535292-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2535292-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2535292-main-zoom.jpg?imwidth=270",
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P479990",
+      "productName": "Brazilian Glossy\u2122 Nourishing Anti-Frizz Hair Oil",
+      "rating": "3.9182",
+      "reviews": "587",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/sol-de-janeiro-brazilian-glossy-trade-nourishing-anti-frizz-hair-oil-P479990?skuId=2535292",
+      "url": "https://www.sephora.com/api/catalog/products/P479990?preferedSku=2535292",
+      "sponsored": false
+    },
+    {
+      "brandName": "SEPHORA The Merch Shop",
+      "currentSku": {
+        "imageAltText": "SEPHORA The Merch Shop - Embroidered Crewneck Sweatshirt",
+        "isAppExclusive": false,
+        "isBI": false,
+        "isLimitedEdition": true,
+        "isLimitedTimeOffer": false,
+        "isNew": true,
+        "isOnlineOnly": true,
+        "isSephoraExclusive": true,
+        "listPrice": "$75.00",
+        "skuId": "2901486"
+      },
+      "displayName": "Embroidered Crewneck Sweatshirt",
+      "heroImage": "https://www.sephora.com/productimages/sku/s2901486-main-zoom.jpg?imwidth=270",
+      "image135": "https://www.sephora.com/productimages/sku/s2901486-main-zoom.jpg?imwidth=270",
+      "image250": "https://www.sephora.com/productimages/sku/s2901486-main-zoom.jpg?imwidth=270",
+      "image450": "https://www.sephora.com/productimages/sku/s2901486-main-zoom.jpg?imwidth=270",
+      "altImage": "https://www.sephora.com/productimages/sku/s2901486-main-zoom.jpg?imwidth=270",
+      "moreColors": 5,
+      "onSaleData": "NONE",
+      "pickupEligible": false,
+      "productId": "P517131",
+      "productName": "Embroidered Crewneck Sweatshirt",
+      "rating": "4",
+      "reviews": "7",
+      "sameDayEligible": false,
+      "shipToHomeEligible": true,
+      "targetUrl": "/product/embroidered-crewneck-sweatshirt-P517131?skuId=2901486",
+      "url": "https://www.sephora.com/api/catalog/products/P517131?preferedSku=2901486",
+      "sponsored": false
+    }
+  ],
+  "refinements": [
+    {
+      "displayName": "Pickup & Delivery",
+      "type": "checkboxesWithDropDown",
+      "values": [
+        {
+          "refinementValue": "filters[Pickup]=",
+          "refinementValueDisplayName": "Pickup",
+          "refinementValueStatus": 1
+        },
+        {
+          "refinementValue": "filters[SameDay]=",
+          "refinementValueDisplayName": "Same-Day Delivery",
+          "refinementValueStatus": 1
+        },
+        {
+          "refinementValue": "filters[ShipToHome]=",
+          "refinementValueDisplayName": "Ship to",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Price Range",
+      "type": "range",
+      "values": [
+        {
+          "refinementValue": "pl=min&ph=25",
+          "refinementValueDisplayName": "Under $25",
+          "refinementValueStatus": 1
+        },
+        {
+          "refinementValue": "pl=25&ph=50",
+          "refinementValueDisplayName": "$25 to $50",
+          "refinementValueStatus": 1
+        },
+        {
+          "refinementValue": "pl=50&ph=100",
+          "refinementValueDisplayName": "$50 to $100",
+          "refinementValueStatus": 1
+        },
+        {
+          "refinementValue": "pl=100&ph=max",
+          "refinementValueDisplayName": "$100 and above",
+          "refinementValueStatus": 1
+        },
+        {
+          "refinementValue": "pl=min&ph=max&ptype=manual",
+          "refinementValueDisplayName": "min and max",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Brand",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 7,
+          "refinementValue": "filters[Brand]=Sol de Janeiro",
+          "refinementValueDisplayName": "Sol de Janeiro",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[Brand]=Dieux",
+          "refinementValueDisplayName": "Dieux",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[Brand]=ActAcre",
+          "refinementValueDisplayName": "ActAcre",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[Brand]=LoveShackFancy",
+          "refinementValueDisplayName": "LoveShackFancy",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[Brand]=LANEIGE",
+          "refinementValueDisplayName": "LANEIGE",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[Brand]=Glow Recipe",
+          "refinementValueDisplayName": "Glow Recipe",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[Brand]=SEPHORA The Merch Shop",
+          "refinementValueDisplayName": "SEPHORA The Merch Shop",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[Brand]=dae",
+          "refinementValueDisplayName": "dae",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[Brand]=Gisou",
+          "refinementValueDisplayName": "Gisou",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[Brand]=The Outset",
+          "refinementValueDisplayName": "The Outset",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Rating",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 13,
+          "refinementValue": "filters[Rating]=\"4\"-\"inf\"",
+          "refinementValueDisplayName": "4 & up",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 18,
+          "refinementValue": "filters[Rating]=\"3\"-\"inf\"",
+          "refinementValueDisplayName": "3 & up",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 18,
+          "refinementValue": "filters[Rating]=\"2\"-\"inf\"",
+          "refinementValueDisplayName": "2 & up",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 18,
+          "refinementValue": "filters[Rating]=\"1\"-\"inf\"",
+          "refinementValueDisplayName": "1 & up",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Fragrance Type",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 1,
+          "refinementValue": "filters[fragranceType]=freshCitrusFruits",
+          "refinementValueDisplayName": "Fresh Citrus & Fruits",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[fragranceType]=fruityFlorals",
+          "refinementValueDisplayName": "Fruity Florals",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Finish",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 2,
+          "refinementValue": "filters[finish]=highShine",
+          "refinementValueDisplayName": "High Shine",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[finish]=shimmer",
+          "refinementValueDisplayName": "Shimmer",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Age Range",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 5,
+          "refinementValue": "filters[ageRange]=40s",
+          "refinementValueDisplayName": "40s",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 5,
+          "refinementValue": "filters[ageRange]=30s",
+          "refinementValueDisplayName": "30s",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 5,
+          "refinementValue": "filters[ageRange]=20s",
+          "refinementValueDisplayName": "20s",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Hair Texture",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 4,
+          "refinementValue": "filters[hairTexture]=wavy",
+          "refinementValueDisplayName": "Wavy",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 4,
+          "refinementValue": "filters[hairTexture]=straight",
+          "refinementValueDisplayName": "Straight",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 4,
+          "refinementValue": "filters[hairTexture]=curly",
+          "refinementValueDisplayName": "Curly",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 3,
+          "refinementValue": "filters[hairTexture]=coily",
+          "refinementValueDisplayName": "Coily",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Skin Concerns",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 3,
+          "refinementValue": "filters[skinConcerns]=dryness",
+          "refinementValueDisplayName": "Dryness",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[skinConcerns]=lossOfFirmnessElasticity",
+          "refinementValueDisplayName": "Loss of Firmness/ Elasticity",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[skinConcerns]=dullness",
+          "refinementValueDisplayName": "Dullness",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[skinConcerns]=fineLinesWrinkles",
+          "refinementValueDisplayName": "Fine Lines/ Wrinkles",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Formulation",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 1,
+          "refinementValue": "filters[formulation]=spray",
+          "refinementValueDisplayName": "Spray",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[formulation]=cream",
+          "refinementValueDisplayName": "Cream",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 3,
+          "refinementValue": "filters[formulation]=balm",
+          "refinementValueDisplayName": "Balm",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[formulation]=liquid",
+          "refinementValueDisplayName": "Liquid",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[formulation]=gel",
+          "refinementValueDisplayName": "Gel",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Shopping Preferences",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 4,
+          "refinementValue": "filters[shoppingPreferences]=onlyAtSephora",
+          "refinementValueDisplayName": "Only at Sephora",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[shoppingPreferences]=koreanBeauty",
+          "refinementValueDisplayName": "Korean Beauty",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[shoppingPreferences]=planetAware",
+          "refinementValueDisplayName": "Planet Aware",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[shoppingPreferences]=bestOfAllure",
+          "refinementValueDisplayName": "Best of Allure",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Ingredient Preferences",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 8,
+          "refinementValue": "filters[ingredientPreferences]=crueltyFree",
+          "refinementValueDisplayName": "Cruelty-Free",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 6,
+          "refinementValue": "filters[ingredientPreferences]=vegan",
+          "refinementValueDisplayName": "Vegan",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 6,
+          "refinementValue": "filters[ingredientPreferences]=cleanAtSephora",
+          "refinementValueDisplayName": "Clean at Sephora",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 6,
+          "refinementValue": "filters[ingredientPreferences]=sulfateFree",
+          "refinementValueDisplayName": "Sulfate-free",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 6,
+          "refinementValue": "filters[ingredientPreferences]=parabenFree",
+          "refinementValueDisplayName": "Paraben-free",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[ingredientPreferences]=antioxidants",
+          "refinementValueDisplayName": "Anti-oxidants",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[ingredientPreferences]=vitaminC",
+          "refinementValueDisplayName": "Vitamin C",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[ingredientPreferences]=hyaluronicAcid",
+          "refinementValueDisplayName": "Hyaluronic Acid",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[ingredientPreferences]=squalane",
+          "refinementValueDisplayName": "Squalane",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[ingredientPreferences]=siliconeFree",
+          "refinementValueDisplayName": "Silicone Free",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[ingredientPreferences]=nonComedogenic",
+          "refinementValueDisplayName": "Non-Comedogenic",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[ingredientPreferences]=naturallyDerived",
+          "refinementValueDisplayName": "Naturally Derived",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[ingredientPreferences]=fragranceFree",
+          "refinementValueDisplayName": "Fragrance Free",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[ingredientPreferences]=alcoholFree",
+          "refinementValueDisplayName": "Alcohol Free",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "New",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 4,
+          "refinementValue": "filters[isNew]=true",
+          "refinementValueDisplayName": "New",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Hair Type",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 4,
+          "refinementValue": "filters[hairType]=medium",
+          "refinementValueDisplayName": "Medium",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 4,
+          "refinementValue": "filters[hairType]=fine",
+          "refinementValueDisplayName": "Fine",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 3,
+          "refinementValue": "filters[hairType]=thick",
+          "refinementValueDisplayName": "Thick",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Hair Concerns",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 2,
+          "refinementValue": "filters[hairConcerns]=colorSafe",
+          "refinementValueDisplayName": "Color Safe",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[hairConcerns]=thinning",
+          "refinementValueDisplayName": "Thinning",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[hairConcerns]=dryness",
+          "refinementValueDisplayName": "Dryness",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[hairConcerns]=shine",
+          "refinementValueDisplayName": "Shine",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 2,
+          "refinementValue": "filters[hairConcerns]=frizzHr",
+          "refinementValueDisplayName": "Frizz",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[hairConcerns]=curlEnhancing",
+          "refinementValueDisplayName": "Curl-Enhancing",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[hairConcerns]=oilyScalp",
+          "refinementValueDisplayName": "Oily Scalp",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[hairConcerns]=scalpBuildUp",
+          "refinementValueDisplayName": "Scalp Build Up",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[hairConcerns]=flakyDryScalp",
+          "refinementValueDisplayName": "Flaky/Dry Scalp",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Benefits",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 2,
+          "refinementValue": "filters[benefits]=hydrating",
+          "refinementValueDisplayName": "Hydrating",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[benefits]=longWearing",
+          "refinementValueDisplayName": "Long-wearing",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Skin Type",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 3,
+          "refinementValue": "filters[skinType]=oilySk",
+          "refinementValueDisplayName": "Oily",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 3,
+          "refinementValue": "filters[skinType]=normalSk",
+          "refinementValueDisplayName": "Normal",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 3,
+          "refinementValue": "filters[skinType]=drySk",
+          "refinementValueDisplayName": "Dry",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 3,
+          "refinementValue": "filters[skinType]=comboSk",
+          "refinementValueDisplayName": "Combination",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Size",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 4,
+          "refinementValue": "filters[sizeRefinement]=giftSet",
+          "refinementValueDisplayName": "Gift Set",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Fragrance Family",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 1,
+          "refinementValue": "filters[fragranceFamily]=fresh",
+          "refinementValueDisplayName": "Fresh",
+          "refinementValueStatus": 1
+        },
+        {
+          "count": 1,
+          "refinementValue": "filters[fragranceFamily]=floral",
+          "refinementValueDisplayName": "Floral",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Coverage",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 1,
+          "refinementValue": "filters[coverage]=sheer",
+          "refinementValueDisplayName": "Sheer",
+          "refinementValueStatus": 1
+        }
+      ]
+    },
+    {
+      "displayName": "Sale",
+      "type": "checkboxes",
+      "values": [
+        {
+          "count": 1,
+          "refinementValue": "filters[on_sale]=true",
+          "refinementValueDisplayName": "Sale",
+          "refinementValueStatus": 1
+        }
+      ]
+    }
+  ],
+  "responseSource": "NLP",
+  "totalProducts": 18,
+  "userSegment": "COUNTRY_USiPhoneApp"
+}

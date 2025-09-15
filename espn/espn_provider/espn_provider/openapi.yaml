@@ -1,0 +1,434 @@
+openapi: 3.1.0
+info:
+  title: ESPN Sports
+  version: "1.0.0"
+  description: |
+    Access comprehensive sports data from ESPN including live scores, news, event details, 
+    and sports statistics. This API provides real-time access to scores and events from 
+    all major sports leagues including NFL, NBA, MLB, NHL, Soccer, Tennis, Golf, and more.
+    
+    Key capabilities:
+    - Live scores and game updates
+    - Sports news and highlights
+    - Detailed event information and statistics
+    - Team and player data
+    - League standings and schedules
+    - Personalized content based on favorite teams
+
+paths:
+  /home:
+    get:
+      operationId: get_home_feed
+      summary: Get home feed content
+      description: Get the main home feed with news, scores, and featured content
+      parameters:
+        - in: query
+          name: lang
+          schema:
+            type: string
+            default: en
+          description: Language code
+        - in: query
+          name: region
+          schema:
+            type: string
+            default: US
+          description: Region code
+        - in: query
+          name: platform
+          schema:
+            type: string
+            default: ios
+          description: Platform
+        - in: query
+          name: personalized
+          schema:
+            type: boolean
+            default: true
+          description: Enable personalization
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+          description: Number of items to return
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  clubhouse:
+                    type: object
+                  feed:
+                    type: object
+                required: [clubhouse, feed]
+
+  /scores:
+    get:
+      operationId: get_scores
+      summary: Get current scores
+      description: Get current scores and live events across sports
+      parameters:
+        - in: query
+          name: lang
+          schema:
+            type: string
+            default: en
+          description: Language code
+        - in: query
+          name: region
+          schema:
+            type: string
+            default: US
+          description: Region code
+        - in: query
+          name: sport
+          schema:
+            type: string
+          description: Filter by sport (e.g., nfl, nba, mlb)
+        - in: query
+          name: date
+          schema:
+            type: string
+          description: Date in YYYYMMDD format
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /events/top:
+    get:
+      operationId: get_top_events
+      summary: Get top live events
+      description: Get top live events and trending games
+      parameters:
+        - in: query
+          name: ceId
+          schema:
+            type: string
+          description: Competition ID
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+          description: Number of events to return
+        - in: query
+          name: offset
+          schema:
+            type: integer
+            minimum: 0
+            default: 0
+          description: Offset for pagination
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /sports:
+    get:
+      operationId: get_sports_list
+      summary: Get list of sports
+      description: Get list of all available sports and leagues
+      parameters:
+        - in: query
+          name: profile
+          schema:
+            type: string
+            default: sports-card
+          description: Profile type
+        - in: query
+          name: lang
+          schema:
+            type: string
+            default: en
+          description: Language code
+        - in: query
+          name: region
+          schema:
+            type: string
+            default: US
+          description: Region code
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SportsListResponse"
+
+  /sports/{sport}/events:
+    get:
+      operationId: get_sport_events
+      summary: Get events for a sport
+      description: Get events and games for a specific sport
+      parameters:
+        - in: path
+          name: sport
+          required: true
+          schema:
+            type: string
+          description: Sport identifier (e.g., nfl, nba, tennis)
+        - in: query
+          name: lang
+          schema:
+            type: string
+            default: en
+          description: Language code
+        - in: query
+          name: region
+          schema:
+            type: string
+            default: US
+          description: Region code
+        - in: query
+          name: league
+          schema:
+            type: string
+          description: League identifier
+        - in: query
+          name: date
+          schema:
+            type: string
+          description: Date in YYYYMMDD format
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 200
+            default: 50
+          description: Number of events to return
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /event/{event_id}:
+    get:
+      operationId: get_event_details
+      summary: Get event details
+      description: Get detailed information about a specific event
+      parameters:
+        - in: path
+          name: event_id
+          required: true
+          schema:
+            type: string
+          description: Event ID
+        - in: query
+          name: sport
+          required: true
+          schema:
+            type: string
+          description: Sport identifier
+        - in: query
+          name: competitionId
+          schema:
+            type: string
+          description: Competition ID
+        - in: query
+          name: lang
+          schema:
+            type: string
+            default: en
+          description: Language code
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /favorites:
+    get:
+      operationId: get_favorites_management
+      summary: Get favorites management
+      description: Get user's favorite teams and leagues management data
+      parameters:
+        - in: query
+          name: lang
+          schema:
+            type: string
+            default: en
+          description: Language code
+        - in: query
+          name: region
+          schema:
+            type: string
+            default: US
+          description: Region code
+        - in: query
+          name: userId
+          schema:
+            type: string
+          description: User ID for personalized favorites
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /search:
+    get:
+      operationId: search_content
+      summary: Search ESPN content
+      description: Search for teams, players, news, and other content
+      parameters:
+        - in: query
+          name: query
+          required: true
+          schema:
+            type: string
+          description: Search query
+        - in: query
+          name: type
+          schema:
+            type: string
+            default: all
+          description: Content type to search (all, teams, players, news)
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+          description: Number of results
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /news/{sport}:
+    get:
+      operationId: get_sport_news
+      summary: Get sport news
+      description: Get news articles for a specific sport
+      parameters:
+        - in: path
+          name: sport
+          required: true
+          schema:
+            type: string
+          description: Sport identifier
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 50
+            default: 20
+          description: Number of articles
+        - in: query
+          name: offset
+          schema:
+            type: integer
+            minimum: 0
+            default: 0
+          description: Pagination offset
+      responses:
+        "200":
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+
+components:
+  schemas:
+    SportsListResponse:
+      type: object
+      properties:
+        sports:
+          type: array
+          items:
+            $ref: "#/components/schemas/SportCategory"
+        meta:
+          type: object
+      required: [sports]
+
+    SportCategory:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        slug:
+          type: string
+        iconUrl:
+          type: string
+        leagues:
+          type: array
+          items:
+            type: object
+      required: [id, name]
+
+    Event:
+      type: object
+      properties:
+        id:
+          type: string
+        sportName:
+          type: string
+        eventName:
+          type: string
+        gameState:
+          type: string
+          enum: [pre, in, post]
+        gameDate:
+          type: string
+          format: date-time
+        leagueName:
+          type: string
+        statusText:
+          type: string
+        headline:
+          type: string
+        teams:
+          type: array
+          items:
+            $ref: "#/components/schemas/Team"
+      required: [id]
+
+    Team:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        abbreviation:
+          type: string
+        logoUrl:
+          type: string
+        score:
+          type: string
+        winner:
+          type: boolean
+        rank:
+          type: string
+      required: [name]

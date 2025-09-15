@@ -1,0 +1,24 @@
+# provider.yaml - ESPN Provider
+id: espn
+name: "ESPN Sports"
+description: "Access live sports scores, news, and comprehensive sports data from ESPN's extensive coverage of all major sports leagues and events"
+homepage: "https://www.espn.com"
+auth:
+  scheme: none  # ESPN's public APIs don't require authentication for basic access
+endpoints: openapi.yaml
+rate_limits:
+  default_per_minute: 60
+  burst: 20
+tags:
+  - sports
+  - scores
+  - news
+  - live-events
+  - nfl
+  - nba
+  - mlb
+  - soccer
+  - tennis
+  - public
+billing:
+  default_cost_cents: 2  # Default 2 cents per API call

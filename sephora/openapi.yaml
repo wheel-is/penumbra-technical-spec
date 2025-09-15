@@ -1,0 +1,946 @@
+openapi: 3.1.0
+info:
+  title: Sephora Beauty API
+  version: "1.0.0"
+  description: "Minimal beauty product discovery and shopping API emulating Sephora user journeys. Features modular homepage content, product catalog with search/browse, detailed product information with reviews, shopping cart management, user profiles with Beauty Insider rewards, and comprehensive error handling with rate limiting. Authentication is handled externally - all API requests are pre-authenticated."
+x-services:
+  sephora:
+    description: "Beauty product discovery and shopping service with catalog browsing, cart management, gift card purchases, checkout flow, and Beauty Insider rewards"
+    flow: "1. Browse/search products → 2. Add to cart → 3. Initialize order → 4. Set shipping → 5. Get quote → 6. Submit order (payment hardcoded)"
+    pricing_model: "free tier (100 requests/hour)"
+    typical_response_time: "< 50ms"
+    catalog_size: "30,000+ products"
+    features:
+      - "Product search with filters (brand, category, price)"
+      - "Shopping cart with real-time pricing"
+      - "Beauty Insider rewards program"
+      - "Product reviews and recommendations"
+      - "Pre-authenticated access (auth handled externally)"
+paths:
+  /content/home:
+    get:
+      operationId: get_home_content
+      summary: "Get homepage content blocks"
+      description: "Retrieve modular homepage content including banners, product carousels, and category links"
+      parameters:
+        - in: query
+          name: ch
+          schema:
+            type: string
+            default: iPhoneApp
+          description: "Channel identifier (iPhoneApp, web, android)"
+        - in: query
+          name: loc
+          schema:
+            type: string
+            default: en-US
+          description: "Locale for content localization"
+      responses:
+        "200":
+          description: "Homepage content retrieved"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  content:
+                    type: array
+                    description: "Array of content blocks"
+                    items:
+                      oneOf:
+                        - $ref: "#/components/schemas/Banner"
+                        - $ref: "#/components/schemas/ProductCarousel"
+                        - $ref: "#/components/schemas/CategoryLinks"
+                required: [content]
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+  /products/search:
+    get:
+      operationId: search_products
+      summary: "Search and filter products"
+      description: "Search the product catalog with filters for brand, category, and sorting options"
+      parameters:
+        - in: query
+          name: q
+          schema:
+            type: string
+          description: "Search query text"
+        - in: query
+          name: category
+          schema:
+            type: string
+          description: "Product category filter"
+        - in: query
+          name: brand
+          schema:
+            type: string
+          description: "Brand name filter"
+        - in: query
+          name: page
+          schema:
+            type: integer
+            default: 1
+            minimum: 1
+          description: "Page number for pagination"
+        - in: query
+          name: size
+          schema:
+            type: integer
+            default: 24
+            minimum: 1
+            maximum: 100
+          description: "Number of items per page"
+        - in: query
+          name: sort
+          schema:
+            type: string
+            enum: [BEST_SELLING, PRICE_LOW_HIGH, PRICE_HIGH_LOW, NEWEST, RATING]
+          description: "Sort order for results"
+      responses:
+        "200":
+          description: "Product search results"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  products:
+                    type: array
+                    description: "Array of product summaries"
+                    items:
+                      $ref: "#/components/schemas/ProductSummary"
+                  pagination:
+                    $ref: "#/components/schemas/Pagination"
+                  filters:
+                    type: object
+                    description: "Available filter options"
+                    additionalProperties:
+                      type: array
+                      items:
+                        type: string
+                required: [products, pagination, filters]
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+  /products/{productId}:
+    get:
+      operationId: get_product_detail
+      summary: "Get detailed product information"
+      description: "Retrieve comprehensive product details including SKUs, images, reviews, and recommendations"
+      parameters:
+        - in: path
+          name: productId
+          required: true
+          schema:
+            type: string
+          description: "Unique product identifier"
+        - in: query
+          name: skuId
+          schema:
+            type: string
+          description: "Specific SKU to highlight"
+      responses:
+        "200":
+          description: "Product details retrieved"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProductDetail"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+  /cart:
+    get:
+      operationId: get_cart
+      summary: "Get shopping cart contents"
+      description: "Retrieve current cart items with calculated totals including tax and shipping"
+      responses:
+        "200":
+          description: "Cart contents retrieved"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Cart"
+    post:
+      operationId: add_to_cart
+      summary: "Add item to shopping cart"
+      description: "Add a product SKU to the cart with specified quantity"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                skuId:
+                  type: string
+                  description: "Product SKU identifier"
+                quantity:
+                  type: integer
+                  minimum: 1
+                  description: "Quantity to add"
+              required: [skuId, quantity]
+      responses:
+        "200":
+          description: "Item added to cart"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Cart"
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /cart/items/{itemId}:
+    put:
+      operationId: update_cart_item
+      summary: "Update cart item quantity"
+      description: "Modify the quantity of an existing cart item"
+      parameters:
+        - in: path
+          name: itemId
+          required: true
+          schema:
+            type: string
+          description: "Cart item identifier"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                quantity:
+                  type: integer
+                  minimum: 0
+                  description: "New quantity (0 to remove)"
+              required: [quantity]
+      responses:
+        "200":
+          description: "Cart item updated"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Cart"
+        "404":
+          $ref: "#/components/responses/NotFound"
+    delete:
+      operationId: remove_cart_item
+      summary: "Remove item from cart"
+      description: "Delete an item from the shopping cart"
+      parameters:
+        - in: path
+          name: itemId
+          required: true
+          schema:
+            type: string
+          description: "Cart item identifier"
+      responses:
+        "200":
+          description: "Item removed from cart"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    description: "Confirmation message"
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /checkout/order/init:
+    post:
+      operationId: init_order
+      summary: "Initialize checkout order"
+      description: "Start a new checkout session by creating an order from current cart items"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/OrderInitRequest"
+      responses:
+        "200":
+          description: "Order initialized successfully"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderInitResponse"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+  /checkout/orders/shippingAddress:
+    post:
+      operationId: set_shipping_address
+      summary: "Set shipping address for order"
+      description: "Configure the shipping address for the current order"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ShippingAddressRequest"
+      responses:
+        "200":
+          description: "Shipping address set successfully"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  profileLocale:
+                    type: string
+                    description: "User locale"
+                  profileStatus:
+                    type: integer
+                    description: "Profile status code"
+                  addressId:
+                    type: string
+                    description: "Address identifier"
+                  message:
+                    type: string
+                    description: "Success message"
+                required: [addressId, message]
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /checkout/orders/{orderId}:
+    get:
+      operationId: get_order_details
+      summary: "Get order details"
+      description: "Retrieve comprehensive order information including items, pricing, and shipping"
+      parameters:
+        - in: path
+          name: orderId
+          required: true
+          schema:
+            type: string
+          description: "Order identifier"
+      responses:
+        "200":
+          description: "Order details retrieved"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderDetails"
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /checkout/quote:
+    post:
+      operationId: get_checkout_quote
+      summary: "Get checkout price quote"
+      description: "Calculate final pricing for an order including tax and shipping - precheck endpoint for purchase"
+      x-purchase-precheckout: true
+      x-amount-path: "$.pricing.total_cents"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                order_id:
+                  type: string
+                  description: "Order identifier"
+              required: [order_id]
+      responses:
+        "200":
+          description: "Quote calculated successfully"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CheckoutQuote"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "404":
+          $ref: "#/components/responses/NotFound"
+  /checkout/submitOrder:
+    post:
+      operationId: submit_order
+      summary: "Submit order for processing"
+      description: "Complete the purchase by submitting the order with payment (hardcoded)"
+      x-purchase-endpoint: true
+      x-purchase-precheck: "/checkout/quote"
+      x-amount-path: "$.totals.total_cents"
+      x-transaction-id-path: "$.confirmationNumber"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SubmitOrderRequest"
+      responses:
+        "200":
+          description: "Order submitted successfully"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderSubmitResponse"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "404":
+          $ref: "#/components/responses/NotFound"
+components:
+  schemas:
+    ProductSummary:
+      type: object
+      properties:
+        productId:
+          type: string
+          description: "Unique product identifier"
+        skuId:
+          type: string
+          description: "Default SKU identifier"
+        name:
+          type: string
+          description: "Product name"
+        brandName:
+          type: string
+          description: "Brand name"
+        listPrice:
+          type: string
+          description: "Regular price in dollars"
+        salePrice:
+          type: string
+          description: "Sale price if applicable"
+        imageUrl:
+          type: string
+          description: "Product image URL"
+        rating:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 5
+          description: "Average rating (0-5 stars)"
+        reviewCount:
+          type: integer
+          description: "Number of reviews"
+        badge:
+          type: string
+          description: "Product badge (e.g., 'clean-at-sephora')"
+        variationDesc:
+          type: string
+          description: "Variation description (e.g., color, shade)"
+      required: [productId, skuId, name, brandName, listPrice, imageUrl, rating, reviewCount]
+    ProductDetail:
+      type: object
+      properties:
+        productId:
+          type: string
+          description: "Unique product identifier"
+        name:
+          type: string
+          description: "Product name"
+        brandName:
+          type: string
+          description: "Brand name"
+        description:
+          type: string
+          description: "Detailed product description"
+        skus:
+          type: array
+          description: "Available SKU variations"
+          items:
+            type: object
+            properties:
+              skuId:
+                type: string
+                description: "SKU identifier"
+              listPrice:
+                type: string
+                description: "Regular price"
+              salePrice:
+                type: string
+                description: "Sale price if applicable"
+              variationValue:
+                type: string
+                description: "Variation value"
+              variationDesc:
+                type: string
+                description: "Variation description"
+              inStock:
+                type: boolean
+                description: "Stock availability"
+            required: [skuId, listPrice, inStock]
+        images:
+          type: array
+          description: "Product image URLs"
+          items:
+            type: string
+        rating:
+          type: number
+          format: float
+          description: "Average rating"
+        reviewCount:
+          type: integer
+          description: "Number of reviews"
+        reviews:
+          type: array
+          description: "Customer reviews"
+          items:
+            $ref: "#/components/schemas/Review"
+        recommendations:
+          type: array
+          description: "Recommended products"
+          items:
+            $ref: "#/components/schemas/ProductSummary"
+      required: [productId, name, brandName, description, skus, images, rating, reviewCount]
+    Review:
+      type: object
+      properties:
+        reviewId:
+          type: string
+          description: "Review identifier"
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+          description: "Star rating (1-5)"
+        title:
+          type: string
+          description: "Review title"
+        text:
+          type: string
+          description: "Review content"
+        author:
+          type: string
+          description: "Reviewer username"
+        date:
+          type: string
+          format: date
+          description: "Review date"
+        verified:
+          type: boolean
+          description: "Verified purchase flag"
+      required: [reviewId, rating, title, text, author, date, verified]
+    Cart:
+      type: object
+      properties:
+        items:
+          type: array
+          description: "Cart items"
+          items:
+            $ref: "#/components/schemas/CartItem"
+        subtotal:
+          type: string
+          description: "Subtotal in dollars"
+        tax:
+          type: string
+          description: "Tax amount in dollars"
+        shipping:
+          type: string
+          description: "Shipping cost in dollars"
+        total:
+          type: string
+          description: "Total amount in dollars"
+        promoCode:
+          type: string
+          description: "Applied promotional code"
+        promoDiscount:
+          type: string
+          description: "Promotional discount amount"
+      required: [items, subtotal, tax, shipping, total]
+    CartItem:
+      type: object
+      properties:
+        itemId:
+          type: string
+          description: "Cart item identifier"
+        productId:
+          type: string
+          description: "Product identifier"
+        skuId:
+          type: string
+          description: "SKU identifier"
+        name:
+          type: string
+          description: "Product name"
+        brandName:
+          type: string
+          description: "Brand name"
+        variationDesc:
+          type: string
+          description: "Variation description"
+        price:
+          type: string
+          description: "Item price"
+        quantity:
+          type: integer
+          minimum: 1
+          description: "Item quantity"
+        imageUrl:
+          type: string
+          description: "Product image URL"
+      required: [itemId, productId, skuId, name, brandName, price, quantity, imageUrl]
+    Banner:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [Banner]
+          description: "Content type identifier"
+        title:
+          type: string
+          description: "Banner title"
+        text:
+          type: string
+          description: "Banner text content"
+        imageUrl:
+          type: string
+          description: "Banner image URL"
+        actionUrl:
+          type: string
+          description: "Click-through URL"
+      required: [type, title, text, imageUrl, actionUrl]
+    ProductCarousel:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [ProductCarousel]
+          description: "Content type identifier"
+        title:
+          type: string
+          description: "Carousel title"
+        products:
+          type: array
+          description: "Featured products"
+          items:
+            $ref: "#/components/schemas/ProductSummary"
+      required: [type, title, products]
+    CategoryLinks:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [CategoryLinks]
+          description: "Content type identifier"
+        title:
+          type: string
+          description: "Section title"
+        links:
+          type: array
+          description: "Category links"
+          items:
+            type: object
+            properties:
+              label:
+                type: string
+                description: "Link label"
+              slug:
+                type: string
+                description: "Category slug"
+              imageUrl:
+                type: string
+                description: "Category image URL"
+            required: [label, slug, imageUrl]
+      required: [type, title, links]
+    Pagination:
+      type: object
+      properties:
+        page:
+          type: integer
+          description: "Current page number"
+        size:
+          type: integer
+          description: "Items per page"
+        totalPages:
+          type: integer
+          description: "Total number of pages"
+        totalItems:
+          type: integer
+          description: "Total number of items"
+      required: [page, size, totalPages, totalItems]
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+          description: "Error code"
+        message:
+          type: string
+          description: "Error message"
+        details:
+          type: array
+          description: "Additional error details"
+          items:
+            type: string
+      required: [code, message]
+    OrderInitRequest:
+      type: object
+      properties:
+        profileId:
+          type: string
+          description: "User profile ID (optional, uses default if not provided)"
+        isPaypalFlow:
+          type: boolean
+          default: false
+          description: "Whether using PayPal checkout"
+        isApplePayFlow:
+          type: boolean
+          default: false
+          description: "Whether using Apple Pay"
+        isVenmoFlow:
+          type: boolean
+          default: false
+          description: "Whether using Venmo"
+    OrderInitResponse:
+      type: object
+      properties:
+        profileLocale:
+          type: string
+          description: "User locale"
+        profileStatus:
+          type: integer
+          description: "Profile status code"
+        isBIMember:
+          type: boolean
+          description: "Beauty Insider member flag"
+        isInitialized:
+          type: boolean
+          description: "Order initialization status"
+        orderId:
+          type: string
+          description: "Created order identifier"
+      required: [orderId, isInitialized]
+    ShippingAddress:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: "First name"
+        lastName:
+          type: string
+          description: "Last name"
+        address1:
+          type: string
+          description: "Street address line 1"
+        address2:
+          type: string
+          description: "Street address line 2 (optional)"
+        city:
+          type: string
+          description: "City"
+        state:
+          type: string
+          description: "State/Province code"
+        postalCode:
+          type: string
+          description: "Postal/ZIP code"
+        country:
+          type: string
+          default: "US"
+          description: "Country code"
+        phone:
+          type: string
+          description: "Phone number"
+      required: [firstName, lastName, address1, city, state, postalCode, country, phone]
+    ShippingAddressRequest:
+      type: object
+      properties:
+        shippingGroupId:
+          type: string
+          default: "0"
+          description: "Shipping group identifier"
+        address:
+          $ref: "#/components/schemas/ShippingAddress"
+        saveToProfile:
+          type: boolean
+          default: true
+          description: "Save address to user profile"
+        isDefaultAddress:
+          type: boolean
+          default: true
+          description: "Set as default address"
+        addressType:
+          type: string
+          default: "Residential"
+          description: "Address type (Residential/Commercial)"
+        isPOBoxAddress:
+          type: boolean
+          default: false
+          description: "PO Box flag"
+      required: [address]
+    OrderDetails:
+      type: object
+      properties:
+        orderId:
+          type: string
+          description: "Order identifier"
+        profileId:
+          type: string
+          description: "User profile ID"
+        items:
+          type: array
+          description: "Order items"
+          items:
+            $ref: "#/components/schemas/CartItem"
+        shippingAddress:
+          $ref: "#/components/schemas/ShippingAddress"
+        shippingMethod:
+          type: object
+          description: "Shipping method details"
+          properties:
+            shippingMethodId:
+              type: string
+              description: "Method identifier"
+            shippingMethodType:
+              type: string
+              description: "Method type"
+            shippingMethodDescription:
+              type: string
+              description: "Method description"
+            shippingFee:
+              type: string
+              description: "Shipping fee"
+        priceInfo:
+          type: object
+          description: "Order pricing details"
+          properties:
+            merchandiseSubtotal:
+              type: string
+              description: "Items subtotal"
+            merchandiseShipping:
+              type: string
+              description: "Shipping cost"
+            tax:
+              type: string
+              description: "Tax amount"
+            orderTotal:
+              type: string
+              description: "Total amount"
+            orderTotal_cents:
+              type: integer
+              description: "Total in cents for billing"
+          required: [merchandiseSubtotal, tax, orderTotal, orderTotal_cents]
+        status:
+          type: string
+          description: "Order status"
+      required: [orderId, profileId, items, priceInfo, status]
+    CheckoutQuote:
+      type: object
+      properties:
+        orderId:
+          type: string
+          description: "Order identifier"
+        pricing:
+          type: object
+          description: "Pricing breakdown"
+          properties:
+            subtotal:
+              type: string
+              description: "Items subtotal"
+            tax:
+              type: string
+              description: "Tax amount"
+            shipping:
+              type: string
+              description: "Shipping cost"
+            total:
+              type: string
+              description: "Total amount"
+            total_cents:
+              type: integer
+              description: "Total in cents for billing integration"
+          required: [subtotal, tax, shipping, total, total_cents]
+        items:
+          type: array
+          description: "Order items"
+          items:
+            $ref: "#/components/schemas/CartItem"
+        shippingAddress:
+          $ref: "#/components/schemas/ShippingAddress"
+        estimatedDelivery:
+          type: string
+          description: "Estimated delivery timeframe"
+      required: [orderId, pricing, items, shippingAddress]
+    SubmitOrderRequest:
+      type: object
+      properties:
+        orderId:
+          type: string
+          description: "Order identifier to submit"
+        profileId:
+          type: string
+          description: "User profile ID (optional)"
+        originOfOrder:
+          type: string
+          default: "iPhoneAppV2.0"
+          description: "Order origin/source"
+      required: [orderId]
+    OrderSubmitResponse:
+      type: object
+      properties:
+        profileLocale:
+          type: string
+          description: "User locale"
+        profileStatus:
+          type: integer
+          description: "Profile status code"
+        orderId:
+          type: string
+          description: "Order identifier"
+        confirmationNumber:
+          type: string
+          description: "Order confirmation number"
+        url:
+          type: string
+          description: "Order details URL"
+        firstTransactionOnline:
+          type: boolean
+          description: "First online transaction flag"
+        dateOfBirthNeedToBeUpdated:
+          type: boolean
+          description: "DOB update flag"
+        totals:
+          type: object
+          description: "Final order totals"
+          properties:
+            subtotal:
+              type: string
+              description: "Items subtotal"
+            tax:
+              type: string
+              description: "Tax amount"
+            shipping:
+              type: string
+              description: "Shipping cost"
+            total:
+              type: string
+              description: "Total amount"
+            total_cents:
+              type: integer
+              description: "Total in cents for billing"
+          required: [subtotal, tax, total, total_cents]
+        message:
+          type: string
+          description: "Success message"
+      required: [orderId, confirmationNumber, totals, message]
+  responses:
+    BadRequest:
+      description: "Bad Request"
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+    NotFound:
+      description: "Resource not found"
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+    TooManyRequests:
+      description: "Too Many Requests - Rate limit exceeded"
+      headers:
+        Retry-After:
+          schema:
+            type: integer
+          description: "Seconds to wait before retrying"
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+    InternalServerError:
+      description: "Internal Server Error"
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"

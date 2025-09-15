@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "espn-provider"
+version = "1.0.0"
+description = "ESPN API provider for Unified-API"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["espn", "sports", "api", "unified-api"]
+authors = [
+  { name = "ESPN Provider", email = "admin@example.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = [
+  "fastapi>=0.100.0",
+  "httpx>=0.24.0",
+  "pydantic>=2.0",
+  "PyYAML>=6.0",
+]
+
+[project.entry-points."unified_api.providers"]
+espn = "espn_provider.provider:ESPNProvider"
+
+[project.urls]
+Documentation = "https://github.com/example/espn-provider#readme"
+Issues = "https://github.com/example/espn-provider/issues"
+Source = "https://github.com/example/espn-provider"

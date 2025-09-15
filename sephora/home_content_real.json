@@ -1,0 +1,3753 @@
+{
+  "data": {
+    "sid": "Homepage_Prod_US_CAN",
+    "items": [
+      {
+        "type": "CustomRendering",
+        "sys": {
+          "publishedVersion": 4
+        },
+        "sid": "brazeContentCard_apphomepage",
+        "renderingType": "brazeContentCard"
+      },
+      {
+        "type": "Recap",
+        "sys": {
+          "publishedVersion": 122
+        },
+        "sid": "homepage_recaplist_PickUpWhereYouLeftOff_us_app",
+        "title": "Pick Up Where You Left Off",
+        "items": [
+          {
+            "sys": {
+              "publishedVersion": 14
+            },
+            "sid": "homepage_recaplist_basket_us_rwd_092022",
+            "title": "Ready to Check Out?",
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "homepage_recaplist_basket_us_rwd_link_092022",
+              "targetScreen": "basket",
+              "targetValue": "basket",
+              "targetUrl": "/basket"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 13
+            },
+            "sid": "homepage_recaplist_loves_us_rwd_092022",
+            "title": "From Your Loves List",
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "homepage_recaplist_loves_us_rwd_link_092022",
+              "targetScreen": "loveslist",
+              "targetValue": "loveslist",
+              "targetUrl": "/shopping-list"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 20
+            },
+            "sid": "homepage_recaplist_purchase_history_us_rwd_092022",
+            "title": "Buy It Again",
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "purchase_history_buy_it_again_link_external",
+              "targetScreen": "purchaseslist",
+              "targetValue": "PurchaseHistory",
+              "targetUrl": "/purchase-history"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 12
+            },
+            "sid": "homepage_recaplist_recentlyviewed_us_rwd_092022",
+            "title": "Recently Viewed",
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "homepage_recaplist_recentlyviewed_us_rwd_link_092022",
+              "targetScreen": "product",
+              "targetValue": "RecentlyViewed",
+              "targetUrl": "/recently-viewed"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 28
+            },
+            "sid": "homepage_recaplist_Bestsellers_us_app_080525",
+            "title": "Bestsellers at Sephora",
+            "variant": "Small Carousel",
+            "actionLabel": "Show more",
+            "skuList": [
+              {
+                "skuId": "1359694",
+                "listPrice": "$69.00",
+                "variationValue": "9",
+                "variationDesc": "tan to deep, olive",
+                "productName": "Luminous Silk Natural Glow Foundation",
+                "brandName": "Armani Beauty",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/luminous-silk-foundation-P393401?skuId=1359694",
+                "badgeAltText": "allure 2024 Best of Beauty Award Winner",
+                "badge": "allure-2024-bestofbeauty",
+                "starRatings": 4.2279,
+                "reviewsCount": 5958,
+                "productId": "P393401"
+              },
+              {
+                "skuId": "2734002",
+                "listPrice": "$48.00",
+                "variationValue": "1.7 oz / 50 mL",
+                "productName": "Extreme Cream Anti-Aging, Firming, & Lifting Refillable Moisturizer",
+                "brandName": "INNBEAUTY Project",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/innbeauty-project-extreme-cream-firming-moisturizer-P509828?skuId=2734002",
+                "badgeAltText": "Clean at Sephora",
+                "badge": "clean-at-sephora",
+                "starRatings": 4.2642,
+                "reviewsCount": 1181,
+                "productId": "P509828"
+              },
+              {
+                "skuId": "2832954",
+                "listPrice": "$42.00",
+                "variationValue": "7.8 oz / 230 ml",
+                "productName": "Honey Gloss Ceramide Therapy Hydrating Hair Mask",
+                "brandName": "Gisou",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/honey-gloss-ceramide-therapy-hydrating-hair-mask-P515172?skuId=2832954",
+                "badgeAltText": "Clean at Sephora",
+                "badge": "clean-at-sephora",
+                "starRatings": 4.6793,
+                "reviewsCount": 661,
+                "productId": "P515172"
+              },
+              {
+                "skuId": "2837904",
+                "listPrice": "$150.00",
+                "variationValue": "3.4 oz / 100 mL eau de parfum spray",
+                "productName": "Miami Shake Eau de Parfum with Strawberry & Vanilla",
+                "brandName": "Juliette Has a Gun",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/miami-shake-eau-de-parfum-P514499?skuId=2837904",
+                "starRatings": 4.1175,
+                "reviewsCount": 485,
+                "productId": "P514499"
+              }
+            ],
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "action_link_bestsellers_toplevel",
+              "page": {
+                "type": "PageContent",
+                "slug": "beauty-best-sellers",
+                "layout": {
+                  "type": "LayoutProductGrid"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 24
+            },
+            "sid": "homepage_recaplist_trendingonsocial_us_app_080525",
+            "title": "Trending on Social",
+            "variant": "Small Carousel",
+            "actionLabel": "Show more",
+            "skuList": [
+              {
+                "skuId": "2869568",
+                "listPrice": "$39.00",
+                "isNew": true,
+                "variationValue": "3.6 oz/142 mL",
+                "productName": "On 'Til Dawn Mattifying Sunscreen Makeup Setting Spray SPF 28",
+                "brandName": "ONE/SIZE by Patrick Starrr",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/one-size-by-patrick-starrr-on-til-dawn-mattifying-sunscreen-makeup-setting-spray-spf-28-P516911?skuId=2869568",
+                "starRatings": 4.4825,
+                "reviewsCount": 456,
+                "productId": "P516911"
+              },
+              {
+                "skuId": "2888626",
+                "listPrice": "$26.00",
+                "isNew": true,
+                "variationValue": "3oz/90ml  ",
+                "productName": "Sundays in Rio Warm Vanilla Hair & Body Perfume Mist",
+                "brandName": "Sol de Janeiro",
+                "isLimitedEdition": true,
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/fall-le-mist-sundays-in-rio-P517914?skuId=2888626",
+                "starRatings": 4.2757,
+                "reviewsCount": 214,
+                "productId": "P517914"
+              },
+              {
+                "skuId": "2898831",
+                "listPrice": "$48.00",
+                "isNew": true,
+                "variationValue": "4oz/118ml",
+                "productName": "HeatBounce\u2122 Leave-In Conditioner Heat Protectant",
+                "brandName": "K18 Biomimetic Hairscience",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/heatbounce-leave-in-conditioner-heat-protectant-P517767?skuId=2898831",
+                "badgeAltText": "Clean at Sephora",
+                "badge": "clean-at-sephora",
+                "starRatings": 4.7389,
+                "reviewsCount": 180,
+                "productId": "P517767"
+              },
+              {
+                "skuId": "2834919",
+                "listPrice": "$38.00",
+                "isNew": true,
+                "variationValue": "8 oz/236 mL  ",
+                "isOnlineOnly": true,
+                "productName": "Mrs Smith Body & Hair Fragrance Mist",
+                "brandName": "PHLUR",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/mrs-smith-body-hair-fragrance-mist-P517205?skuId=2834919",
+                "badgeAltText": "Clean at Sephora",
+                "badge": "clean-at-sephora",
+                "starRatings": 4.6722,
+                "reviewsCount": 241,
+                "productId": "P517205"
+              }
+            ],
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "Meganav_New_TrendingOnSocial_link_internal",
+              "page": {
+                "type": "PageContent",
+                "slug": "trending-at-sephora",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 30
+            },
+            "sid": "homepage_recaplist_ValueSize_us_app_080525",
+            "title": "Value and Gift Sets",
+            "variant": "Small Carousel",
+            "actionLabel": "Show more",
+            "skuList": [
+              {
+                "skuId": "2893436",
+                "listPrice": "$35.00",
+                "valuePrice": "($46.00 value)",
+                "isNew": true,
+                "productName": "Topaz Collection: Shimmer Lip Gloss & Liquid Highlighter Set",
+                "brandName": "REFY",
+                "isLimitedEdition": true,
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/summer-topaz-collection-P516807?skuId=2893436",
+                "starRatings": 5.0,
+                "reviewsCount": 5,
+                "productId": "P516807"
+              },
+              {
+                "skuId": "2888105",
+                "listPrice": "$49.00",
+                "valuePrice": "($65.00 value)",
+                "isNew": true,
+                "productName": "Limited Edition Sol Tote + Body Essentials Set",
+                "brandName": "Sol de Janeiro",
+                "isLimitedEdition": true,
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/sol-de-janeiro-bum-bum-summer-25-set-le-P518741?skuId=2888105",
+                "starRatings": 4.3659,
+                "reviewsCount": 41,
+                "productId": "P518741"
+              },
+              {
+                "skuId": "2888527",
+                "listPrice": "$64.00",
+                "isNew": true,
+                "isOnlineOnly": true,
+                "productName": "No.4 Bond Maintenance Shampoo & No.5 Bond Maintenance Conditioner Duo",
+                "brandName": "Olaplex",
+                "isLimitedEdition": true,
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/no-4-bond-maintenance-shampoo-no-5-bond-maintenance-conditioner-duo-P517786?skuId=2888527",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P517786"
+              },
+              {
+                "skuId": "2893550",
+                "listPrice": "$95.00",
+                "valuePrice": "($155.00 value)",
+                "isNew": true,
+                "productName": "Next Big Thing Perfume Sampler Set w/ Redeemable Voucher",
+                "brandName": "Sephora Favorites",
+                "isLimitedEdition": true,
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/next-big-thing-perfume-sampler-set-w-redeemable-voucher-P517221?skuId=2893550",
+                "badgeAltText": "sephora-favorites-full-size",
+                "badge": "sephora-favorites-full-size",
+                "starRatings": 3.8571,
+                "reviewsCount": 7,
+                "productId": "P517221"
+              }
+            ],
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/shop/value-sets?sortBy=NEW",
+              "urlParameters": "?sortBy=NEW",
+              "page": {
+                "type": "PageCategory",
+                "slug": "value-sets"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ProductList",
+        "sys": {
+          "publishedVersion": 23
+        },
+        "sid": "homepage_productlist_ChosenForYou_us_app_092022",
+        "title": "These Are Recommended For You",
+        "grouping": [
+          "Show Marketing Flags",
+          "Show Price"
+        ],
+        "variant": "Small Carousel",
+        "skuList": [
+          {
+            "skuId": "2333607",
+            "listPrice": "$48.00",
+            "variationValue": "Matira ST11",
+            "variationDesc": "Medium with cool undertones",
+            "productName": "Super Serum Skin Tint SPF 40 Skincare Foundation",
+            "brandName": "ILIA",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/ilia-super-serum-skin-tint-spf-40-P455418?skuId=2333607",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 3.6493,
+            "reviewsCount": 6695,
+            "productId": "P455418"
+          },
+          {
+            "skuId": "2169423",
+            "listPrice": "$38.00",
+            "variationValue": "1.52 / 45 mL",
+            "productName": "Hydro Grip Hydrating Makeup Primer with Hyaluronic Acid + Niacinamide",
+            "brandName": "MILK MAKEUP",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/hydro-grip-primer-P441813?skuId=2169423",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.0383,
+            "reviewsCount": 9497,
+            "productId": "P441813"
+          },
+          {
+            "skuId": "2362085",
+            "listPrice": "$25.00",
+            "variationValue": "Happy",
+            "variationDesc": "dewy cool pink",
+            "productName": "Soft Pinch Liquid Blush",
+            "brandName": "Rare Beauty by Selena Gomez",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/rare-beauty-by-selena-gomez-soft-pinch-liquid-blush-P97989778?skuId=2362085",
+            "badgeAltText": "allure 2022 Best of Beauty Award Winner",
+            "badge": "allure-2022-bestofbeauty-badge",
+            "starRatings": 4.5489,
+            "reviewsCount": 11981,
+            "productId": "P97989778"
+          },
+          {
+            "skuId": "2449130",
+            "listPrice": "$42.00",
+            "variationValue": "20 Mahogany",
+            "variationDesc": "mahogany",
+            "productName": "Lip Glow Oil Hydrating High-Shine Gloss",
+            "brandName": "DIOR",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/dior-lip-glow-oil-P453814?skuId=2449130",
+            "starRatings": 4.068,
+            "reviewsCount": 3264,
+            "productId": "P453814"
+          },
+          {
+            "skuId": "2319820",
+            "listPrice": "$34.00",
+            "variationValue": "10 oz/ 300 mL",
+            "productName": "Detox Shampoo",
+            "brandName": "OUAI",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/ouai-haircare-detox-shampoo-P457223?skuId=2319820",
+            "starRatings": 4.4178,
+            "reviewsCount": 2707,
+            "productId": "P457223"
+          },
+          {
+            "skuId": "2547248",
+            "listPrice": "$75.00",
+            "variationValue": "1.7 oz/ 50 mL",
+            "productName": "Leave-In Molecular Repair Hair Mask",
+            "brandName": "K18 Biomimetic Hairscience",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/leave-in-molecular-repair-mask-P479846?skuId=2547248",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.2219,
+            "reviewsCount": 4872,
+            "productId": "P479846"
+          },
+          {
+            "skuId": "2210607",
+            "listPrice": "$9.50",
+            "variationValue": "1 oz/ 30 mL",
+            "productName": "AHA 30% + BHA 2% High-Strength Peeling Solution for Brightening",
+            "brandName": "The Ordinary",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/aha-30-bha-2-peeling-solution-P442563?skuId=2210607",
+            "starRatings": 4.4534,
+            "reviewsCount": 3791,
+            "productId": "P442563"
+          },
+          {
+            "skuId": "1802412",
+            "listPrice": "$48.00",
+            "variationValue": "8.1 oz/ 240 mL",
+            "productName": "Brazilian Bum Bum Visibly Firming Refillable Body Cream with Caffeine-Rich Guaran\u00e0",
+            "brandName": "Sol de Janeiro",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/brazilian-bum-bum-visibly-firming-refillable-body-cream-P406080?skuId=1802412",
+            "starRatings": 4.2842,
+            "reviewsCount": 9770,
+            "productId": "P406080"
+          },
+          {
+            "skuId": "2315158",
+            "listPrice": "$38.00",
+            "variationValue": "1.7 oz Sunrise / 50 mL",
+            "variationDesc": "champagne",
+            "productName": "Glowscreen SPF 40 Sunscreen with Hyaluronic Acid + Niacinamide",
+            "brandName": "Supergoop!",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/supergoop-glowscreen-sunscreen-spf-40-P456218?skuId=2315158",
+            "starRatings": 3.938,
+            "reviewsCount": 3099,
+            "productId": "P456218"
+          },
+          {
+            "skuId": "2233849",
+            "listPrice": "$66.00",
+            "variationValue": "1.69 oz/ 50 mL",
+            "productName": "Lala Retro\u2122 Nourishing Whipped Refillable Moisturizer",
+            "brandName": "Drunk Elephant",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/drunk-elephant-lala-retro-whipped-moisturizer-with-ceramides-P446938?skuId=2233849",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.0957,
+            "reviewsCount": 3124,
+            "productId": "P446938"
+          },
+          {
+            "skuId": "2215945",
+            "listPrice": "$54.00",
+            "isNew": true,
+            "variationValue": "1.7 oz / 50 mL",
+            "productName": "Triple Lipid-Peptide Cream Refillable Barrier Moisturizer with Ceramides",
+            "brandName": "Skinfix",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/skinfix-barrier-strengthening-and-moisturizing-triple-lipid-peptide-refillable-cream-with-b-l3-P442840?skuId=2215945",
+            "badgeAltText": "Clean plus Planet Aware",
+            "badge": "clean-planet-aware",
+            "starRatings": 4.6848,
+            "reviewsCount": 682,
+            "productId": "P442840"
+          },
+          {
+            "skuId": "2663763",
+            "listPrice": "$39.00",
+            "variationValue": "1.7 oz / 50 mL",
+            "productName": "Ultra Facial Refillable Moisturizing Cream with Squalane",
+            "brandName": "Kiehl's Since 1851",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/ultra-facial-cream-P421996?skuId=2663763",
+            "starRatings": 4.4654,
+            "reviewsCount": 3569,
+            "productId": "P421996"
+          },
+          {
+            "skuId": "1930759",
+            "listPrice": "$39.00",
+            "variationValue": "8.1 oz/ 240 mL",
+            "productName": "Cheirosa 62 Bum Bum Hair & Body Perfume Mist",
+            "brandName": "Sol de Janeiro",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/brazilian-crush-body-fragrance-mist-P417312?skuId=1930759",
+            "starRatings": 4.4257,
+            "reviewsCount": 3298,
+            "productId": "P417312"
+          },
+          {
+            "skuId": "2644532",
+            "listPrice": "$150.00",
+            "variationValue": "3.4 oz / 100 mL eau de toilette spray",
+            "productName": "Miss Dior Blooming Bouquet",
+            "brandName": "DIOR",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/miss-dior-blooming-bouquet-P385477?skuId=2644532",
+            "starRatings": 4.2995,
+            "reviewsCount": 2758,
+            "productId": "P385477"
+          },
+          {
+            "skuId": "1237379",
+            "listPrice": "$116.00",
+            "variationValue": "1.7 oz  ",
+            "productName": "CHANCE EAU TENDRE Eau de Toilette",
+            "brandName": "CHANEL",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/chance-eau-tendre-P258612?skuId=1237379",
+            "starRatings": 4.6519,
+            "reviewsCount": 678,
+            "productId": "P258612"
+          },
+          {
+            "skuId": "2649770",
+            "listPrice": "$82.00",
+            "variationValue": "1.7 oz / 50 mL eau de parfum spray",
+            "productName": "Glossier You Eau de Parfum",
+            "brandName": "Glossier",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/glossier-glossier-you-eau-de-parfum-P504364?skuId=2649770",
+            "starRatings": 4.0033,
+            "reviewsCount": 1834,
+            "productId": "P504364"
+          },
+          {
+            "skuId": "2101293",
+            "listPrice": "$405.00",
+            "variationValue": "1.7oz/ 50mL  ",
+            "productName": "Lost Cherry Eau de Parfum Fragrance",
+            "brandName": "TOM FORD",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/lost-cherry-P436489?skuId=2101293",
+            "badgeAltText": "2021 Allure Best of Beauty Award Winner",
+            "badge": "allure-best-2021-badge",
+            "starRatings": 4.2132,
+            "reviewsCount": 1707,
+            "productId": "P436489"
+          },
+          {
+            "skuId": "2249746",
+            "listPrice": "$180.00",
+            "variationValue": "3.04 oz / 90 mL eau de parfum spray",
+            "productName": "Libre Eau De Parfum with Orange Blossom & Lavender",
+            "brandName": "Yves Saint Laurent",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/libre-eau-de-parfum-P448102?skuId=2249746",
+            "starRatings": 4.5014,
+            "reviewsCount": 3939,
+            "productId": "P448102"
+          },
+          {
+            "skuId": "2547248",
+            "listPrice": "$75.00",
+            "variationValue": "1.7 oz/ 50 mL",
+            "productName": "Leave-In Molecular Repair Hair Mask",
+            "brandName": "K18 Biomimetic Hairscience",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/leave-in-molecular-repair-mask-P479846?skuId=2547248",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.2219,
+            "reviewsCount": 4872,
+            "productId": "P479846"
+          },
+          {
+            "skuId": "2437267",
+            "listPrice": "$28.00",
+            "variationValue": "6.7 fl oz/200 mL",
+            "productName": "Dream Coat Supernatural Treatment Spray for Frizzy Hair",
+            "brandName": "COLOR WOW",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/color-wow-dream-coat-supernatural-treatment-spray-for-frizzy-hair-P469065?skuId=2437267",
+            "starRatings": 3.8709,
+            "reviewsCount": 2478,
+            "productId": "P469065"
+          }
+        ],
+        "ctorPodId": "rfy-test"
+      },
+      {
+        "type": "PromotionList",
+        "sys": {
+          "id": "6zBfMcUMZLgbGI9lc6G0f3",
+          "publishedVersion": 446
+        },
+        "sid": "homepage_promotionlist_offerbanner_us_app_092022",
+        "title": "Beauty Offers",
+        "items": [
+          {
+            "sys": {
+              "publishedVersion": 19
+            },
+            "sid": "homepage_offerbanner_merchsale_program_ohsnap0825_FY254479_broadcast_us_rwd_promo_082925",
+            "title": "Get 50% Off",
+            "description": "Score can\u2019t-miss deals on select beauty. New deals every day!",
+            "threshold": "No promo code needed.",
+            "eligibility": [
+              "Online",
+              "In Store"
+            ],
+            "legalCopy": "(b)Exclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "endDate": "2025-09-18T23:59:00.000-07:00",
+            "media": {
+              "sid": "homepage_offerbanner_merchsale_program_ohsnap0825_FY254479_broadcast_us_rwd_promo_082925_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/OhSnap/2025-08-august-oh-snap-site-beauty-offers-banner-generic-us-1928.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "ONE-DAY DEALS 50% OFFb | Plus, get it fast with Same-Day Delivery. | bExclusions/terms apply."
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "beauty-offers",
+              "page": {
+                "type": "PageContent",
+                "slug": "beauty-offers",
+                "layout": {
+                  "type": "LayoutOpen"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 17
+            },
+            "sid": "homepage_offerbanner_merchsale_slotting_lws0925_FY254496_broadcast_us_ca_rwd_promo_082825_upto50",
+            "title": "Get up to 50% off\u2206 Select Beauty",
+            "description": "Save big on select beauty. Ends 9/1. No promo code needed.",
+            "eligibility": [
+              "Online",
+              "In Store"
+            ],
+            "legalCopy": "\u2206Available on in-stock merchandise only.  ",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "endDate": "2025-09-01T23:59:00.000-07:00",
+            "media": {
+              "sid": "beautyoffers_offerbanner_merchsale_program_lws0925_FY254496_broadcast_us_ca_rwd_promo_082825_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-28-cs_long-weekend-sale_site_beauty-offers-banner_lws_us-can.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "IT\u2019S TIME TO SAVE  Get up to 50% off\u2206 select beauty  In store and online. \u2206Available on in-stock merchandise only. "
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "sale_link_action_internal",
+              "page": {
+                "type": "PageSearch",
+                "keyword": "sale"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 16
+            },
+            "sid": "homepage_offerbanner_promofinancial_program_bonuspoints_FY254448_broadcast_us_ca_rwd_promo_082825",
+            "promoId": "PROMO_BBQ_75spend500pts0825",
+            "title": "Earn an Extra 500 Points\u2021 ",
+            "description": "When you spend $75 in one transaction. ",
+            "threshold": "Use code 500BONUS. ",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Online",
+              "In Store"
+            ],
+            "legalCopy": "\u2021Exclusions/terms apply. Combinable with other offers. ",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "endDate": "2025-09-04T23:59:00.000-07:00",
+            "media": {
+              "sid": "beautyoffers_offerbanner_promofinancial_program_bouncebackearn_FY254448_broadcast_us_ca_rwd_promo_082825_500BONUS_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-28-bounceback-q3-bonus-points-for-purchase-bundle-b-site-beauty-offers-banner-us-can-3144.jpeg",
+              "width": 1000,
+              "height": 750,
+              "altText": "Spend $75 | Earn 500 points\u2021 "
+            },
+            "detailsAction": {
+              "type": "Modal",
+              "sid": "beautyoffers_offerbanner_promofinancial_program_bouncebackearn_FY254448_broadcast_us_ca_rwd_promo_082825_500BONUS_modal",
+              "title": "Earn an Extra 500 Points\u2021 ",
+              "width": 3
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/beauty/sephora-discount",
+              "page": {
+                "type": "PageContent",
+                "slug": "sephora-discount",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 8
+            },
+            "sid": "homepage_offerbanner_merchsale_program_lancome30poff_us_rwd_promo_083025",
+            "title": "Hot Deal",
+            "description": "TODAY ONLY! Get 30% off all Lanc\u00f4me products.",
+            "eligibility": [
+              "Online",
+              "In Store"
+            ],
+            "legalCopy": "Exclusions/terms apply.",
+            "actionLabel": "Shop Sale",
+            "detailsActionLabel": "See details",
+            "endDate": "2025-08-30T23:59:00.000-07:00",
+            "media": {
+              "sid": "beautyoffers_offerbanner_merchsale_program_lancome30poff_us_rwd_promo_083025_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-30-slotting-sale-v2-one-off-site-beauty-offers-banner-lancome-us-handoff.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "30% OFF | LIMITED TIME ONLY"
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/brand/lancome",
+              "page": {
+                "type": "PageBrand",
+                "slug": "lancome"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 16
+            },
+            "sid": "homepage_offerbanner_appexclusive_program_FY254520_augustappbonanza_smgb_broadcast_us_app_promo_082025",
+            "promoCode": "yaymore",
+            "promoId": "sp_1smgm0825",
+            "title": "Sephora App Fest",
+            "description": "Spend more, get more: Choose up to 3 free trial sizes with $80 min. spend.*",
+            "threshold": "Use code YAYMORE.",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Apps"
+            ],
+            "legalCopy": "While supplies last. *Exclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "skuList": [
+              {
+                "skuId": "2829885",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "THE WATER CREAM 5ML (TUBE)-5 ml",
+                "brandName": "Tatcha",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/tatcha-the-water-cream-5ml-tube-5-ml-P518937?skuId=2829885",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518937"
+              },
+              {
+                "skuId": "2902161",
+                "listPrice": "FREE",
+                "productName": "Genesis Conditioner- 30 ml trial size",
+                "brandName": "K\u00e9rastase",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/kerastase-genesis-conditioner-30-ml-trial-size-P518777?skuId=2902161",
+                "starRatings": 5.0,
+                "reviewsCount": 1,
+                "productId": "P518777"
+              },
+              {
+                "skuId": "2900629",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "Gensis Shampoo- 30 ml trial size",
+                "brandName": "K\u00e9rastase",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/kerastase-gensis-shampoo-30-ml-trial-size-P518794?skuId=2900629",
+                "starRatings": 5.0,
+                "reviewsCount": 1,
+                "productId": "P518794"
+              },
+              {
+                "skuId": "2892784",
+                "listPrice": "FREE",
+                "productName": "Revive Rapid Repair Bond Gloss- 15 ml trial size",
+                "brandName": "JVN",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/jvn-revive-rapid-repair-bond-gloss-15-ml-trial-size-P518780?skuId=2892784",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518780"
+              },
+              {
+                "skuId": "2787794",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "Banana Bright+ Moisturizer Deluxe- 7 ml trial size",
+                "brandName": "OLEHENRIKSEN",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/ole-henriksen-banana-bright-moisturizer-deluxe-7-ml-trial-size-P518781?skuId=2787794",
+                "starRatings": 5.0,
+                "reviewsCount": 1,
+                "productId": "P518781"
+              },
+              {
+                "skuId": "2901254",
+                "listPrice": "FREE",
+                "productName": "Medium Conditioner- 1.75 fl oz trial size",
+                "brandName": "PATTERN by Tracee Ellis Ross",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/pattern-beauty-by-tracee-ellis-ross-medium-conditioner-1-75-fl-oz-trial-size-P518790?skuId=2901254",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518790"
+              },
+              {
+                "skuId": "2903466",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "Afternoon Delight- 7 ml trial size",
+                "brandName": "Maison Margiela",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/maison-margiela-afternoon-delight-7-ml-trial-size-P518758?skuId=2903466",
+                "starRatings": 2.5,
+                "reviewsCount": 2,
+                "productId": "P518758"
+              },
+              {
+                "skuId": "2901270",
+                "listPrice": "FREE",
+                "productName": "Hydration Shampoo Palo Santo- 1.75 fl oz trial size",
+                "brandName": "PATTERN by Tracee Ellis Ross",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/pattern-beauty-by-tracee-ellis-ross-hydration-shampoo-palo-santo-1-75-fl-oz-trial-size-P518786?skuId=2901270",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518786"
+              },
+              {
+                "skuId": "2704823",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "OPK ACNE SPOT- 4ml trial size",
+                "brandName": "Kiehl's Since 1851",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/kiehls-opk-acne-spot-4ml-trial-size-P518783?skuId=2704823",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518783"
+              },
+              {
+                "skuId": "2873016",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "No.10 Curl Gel- 20 ml trial size",
+                "brandName": "Olaplex",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/olaplex-no-10-curl-gel-20-ml-trial-size-P518788?skuId=2873016",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518788"
+              },
+              {
+                "skuId": "2825875",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "YSL LOVESHINE BALM 1B-1 gr",
+                "brandName": "Yves Saint Laurent",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/yves-saint-laurent-ysl-loveshine-balm-1b-1-gr-P514524?skuId=2825875",
+                "starRatings": 3.6667,
+                "reviewsCount": 3,
+                "productId": "P514524"
+              },
+              {
+                "skuId": "2590289",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "Pore Clearing Clay Mask 2x with Super Volcanic Clusters trial size",
+                "brandName": "innisfree",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/pore-clearing-clay-mask-2x-with-super-volcanic-clusters-trial-size-P507686?skuId=2590289",
+                "starRatings": 4.5,
+                "reviewsCount": 2,
+                "productId": "P507686"
+              }
+            ],
+            "media": {
+              "sid": "beautyoffers_offerbanner_promogwp_program_appfest0825_FY254520_smgm_broadcast_us_rwd_promo_082025_YAYMORE_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/AppBonanza/2025-08-20-client-x-app-download-bundle-a-site-beauty-offers-banner-us-3248.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "BEAUTY INSIDER  USE CODE YAYMORE  FREE* | SEPHORA APP FEST APP EXCLUSIVE"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 16
+            },
+            "sid": "homepage_offerbanner_promogwp_brand-launch_rhode_FY254170_broadcast_us_rwd_promo_082725_comingsoon",
+            "title": "rhode skin is coming to Sephora",
+            "description": "Be the first to know when products go live on 9/4. Redeem a glazing milk packette at checkout before launch.",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Online"
+            ],
+            "actionLabel": "Preview Now",
+            "detailsActionLabel": "See details",
+            "media": {
+              "sid": "beautyoffers_offerbanner_skincare_brand-launch_rhode_FY254170_broadcast_us_ca_rwd_promo_082725_XXX_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-27-donut-app-preview-pre-launch-site-beauty-offers-banner-us-can-2821.jpg",
+              "width": 1000,
+              "height": 750
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/brand/rhode-hailey-bieber",
+              "page": {
+                "type": "PageBrand",
+                "slug": "rhode-hailey-bieber"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 28
+            },
+            "sid": "homepage_offerbanner_loyalty_program_FY254393_rougeappreciation_dagnedover_broadcast_us_rwd_promo_REPULSE_082825",
+            "promoCode": "dagnedover",
+            "promoId": "sp_dagnedover0825",
+            "title": "Get an Exclusive Dagne Dover Phone Sling",
+            "description": "So cute. So necessary. Yours free with a $125 purchase.*",
+            "eligibility": [
+              "Rouge",
+              "Online",
+              "In Store",
+              "VIB",
+              "Insider"
+            ],
+            "legalCopy": "*While supplies last.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "endDate": "2025-09-01T23:59:00.000-07:00",
+            "skuList": [
+              {
+                "skuId": "2895613",
+                "listPrice": "FREE",
+                "productName": "Rouge Event: Dagne Dover Mara Phone Sling",
+                "brandName": "SEPHORA",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/sephora-rouge-event-dagne-dover-mara-phone-sling-P518628?skuId=2895613",
+                "starRatings": 3.3333,
+                "reviewsCount": 6,
+                "productId": "P518628"
+              }
+            ],
+            "media": {
+              "sid": "beautyoffers_offerbanner_loyalty_program_rougeappreciation_FY254393_dagnedovergwp_broadcast_us_ca_rwd_promo_081425_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-14-bi-rouge-appreciation-event-bundle-b-site-beauty-offers-banner-us-can-3159-update.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "ROUGE EXCLUSIVE"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 99
+            },
+            "sid": "homepage_offerbanner_promofinancial_program_broadcast_sms_FY254467_evergreen_us_ca_rwd_promo_repulse_082825",
+            "title": "Hey Beauty Insider, Get 10% Off***",
+            "description": "Sign up for Sephora Texts to save and stay in the loop on exclusive deals and drops.",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Online",
+              "In Store"
+            ],
+            "legalCopy": "***Exclusions/terms apply.",
+            "actionLabel": "Sign Up Now",
+            "detailsActionLabel": "See details",
+            "endDate": "2025-09-29T23:59:00.000-07:00",
+            "media": {
+              "sid": "beautyoffers_offerbanner_promofinancial_program_broadcast_sms_FY254467_evergreen_us_ca_rwd_promo_042225_media",
+              "src": "/contentimages/promo/beautyoffers/2025/April/2025-sms-evergreen-refresh-bundle-b-site-desktop-mobile-app-beauty-offers-banner-us-can-final.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "Get Sephora Texts! Enjoy 10% off*** | ***Exclusions/terms apply."
+            },
+            "detailsAction": {
+              "type": "Modal",
+              "sid": "beautyoffers_offerbanner_promofinancial_program_broadcast_sms_FY254467_evergreen_us_ca_rwd_promo_042225_modal",
+              "title": "Hey Beauty Insider, Get 10% Off***",
+              "width": 3
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "text-alerts",
+              "page": {
+                "type": "PageContent",
+                "slug": "text-alerts",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 16
+            },
+            "sid": "homepage_offerbanner_promogwp_program_FY254166_chrismcmillan_blowdryspray_broadcast_us_rwd_promo_081825_TRYBLOWDRY",
+            "promoCode": "tryblowdry",
+            "promoId": "sp_chrisspray0825",
+            "title": "Complimentary Chris McMillan Hair-Care Trial Size",
+            "description": "Try The Glassy Smooth Blowdry Spray. ",
+            "threshold": "Complimentary with $40 purchase.*",
+            "eligibility": [
+              "VIB",
+              "Insider",
+              "Rouge",
+              "Online"
+            ],
+            "legalCopy": "*Exclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "skuList": [
+              {
+                "skuId": "2902237",
+                "listPrice": "FREE",
+                "productName": "Blow Dry Spray-30 ml",
+                "brandName": "Chris McMillan",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/blow-dry-spray-30-ml-P518968?skuId=2902237",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518968"
+              }
+            ],
+            "media": {
+              "sid": "beautyoffers_offerbanner_hair_brand-launch_chrismillian_FY254166 _broadcast_us_rwd_promo_081825_TRYBLOWDRY_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-15-chris-mcmillan-brand-launch-site-beauty-offers-banner-us-2821.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "new!"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 16
+            },
+            "sid": "homepage_offerbanner_promogwp_program_FY254165_yttp_choose1of2_broadcast_us_rwd_promo_081725_LOVEYTTP",
+            "promoCode": "loveyttp",
+            "promoId": "sp_yttpmbc0825",
+            "title": "Free Youth To The People Trial Size",
+            "description": "Support your skin barrier and visibly calm redness with this non-stripping cleanser.",
+            "threshold": "Free with $30 purchase.*",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Online"
+            ],
+            "legalCopy": "*Exclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "skuList": [
+              {
+                "skuId": "2901619",
+                "listPrice": "FREE",
+                "productName": "Adaptogen Youth Cleanser- 30 ml trial size",
+                "brandName": "Youth To The People",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/youth-to-the-people-adaptogen-youth-cleanser-30-ml-trial-size-P518770?skuId=2901619",
+                "starRatings": 4.0,
+                "reviewsCount": 1,
+                "productId": "P518770"
+              }
+            ],
+            "media": {
+              "sid": "beautyoffers_offerbanner_skincare_brand-launch_yttp_FY254165_broadcast_us_rwd_promo_081725_LOVEYTTP_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-01-yttp-adaptogen-cleanser-site-beauty-offers-banner-us-can-2821.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "new!"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 16
+            },
+            "sid": "homepage_offerbanner_promogwp_augustvibrouge_FY254440_broadcast_us_rwd_promo_081025_DDGSGIFT",
+            "promoCode": "ddgsgift",
+            "promoId": "sp_vibrddg0825",
+            "title": "Complimentary Dr. Dennis Gross Skincare",
+            "description": "Try this visibly brightening oil-based cleanser and this lightweight, physical sunscreen.",
+            "threshold": "Complimentary with $45 purchase.",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Online"
+            ],
+            "legalCopy": "*Exclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "skuList": [
+              {
+                "skuId": "2900975",
+                "listPrice": "FREE",
+                "productName": "All Physical Lightweight Wrinkle Defense SPF 30",
+                "brandName": "Dr. Dennis Gross Skincare",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/dr-dennis-gross-skincare-all-physical-lightweight-wrinkle-defense-spf-30-P519473?skuId=2900975",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P519473"
+              },
+              {
+                "skuId": "2900983",
+                "listPrice": "FREE",
+                "productName": "Vit C Cleanser",
+                "brandName": "Dr. Dennis Gross Skincare",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/dr-dennis-gross-skincare-vit-c-cleanser-P519474?skuId=2900983",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P519474"
+              }
+            ],
+            "media": {
+              "sid": "beautyoffers_offerbanner_promogwp_program_augustvibrouge_FY254440_broadcast_us_rwd_promo_081025_DDGSGIFT_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-10-vib-r-gifts-app-beauty-offers-banner-us-can-2821.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "VIB+ROUGE"
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 25
+            },
+            "sid": "homepage_offerbanner_promogwp_program_FY254152_cottoncandytexturespray_maneliquids_broadcast_us_rwd_promo_081325_FREEMANE",
+            "promoCode": "freemane",
+            "promoId": "sp_maneplay0825",
+            "title": "Free Trial-Size Mane Temp Check Heat Protectant",
+            "description": "Spray this frizz-fighting formula on your strands for softer, stronger-looking hair.",
+            "threshold": "Free with $30 purchase.*",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Online"
+            ],
+            "legalCopy": "*Exclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "skuList": [
+              {
+                "skuId": "2901445",
+                "listPrice": "FREE",
+                "productName": "Temp Check Heat Protector- 1 oz trial size",
+                "brandName": "Mane",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/mane-temp-check-heat-protector-1-oz-trial-size-P518762?skuId=2901445",
+                "starRatings": 1.0,
+                "reviewsCount": 1,
+                "productId": "P518762"
+              }
+            ],
+            "media": {
+              "sid": "beautyoffers_offerbanner_skincare_hair-launch_mane_FY254152_broadcast_us_ca_rwd_promo_081325_FREEMANE_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-8-07-mane-liquids-collection-site-beauty-offers-banner-us-2821.jpg",
+              "width": 1000,
+              "height": 750
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 18
+            },
+            "sid": "homepage_offerbanner_promogwp_slotting_skinmusthaves_broadcast_us_rwd_promo_080925_SKINNEEDS",
+            "promoCode": "skinneeds",
+            "promoId": "sp_skinmust0825",
+            "title": "Choose a Trial Size ",
+            "description": "Pick a skincare fave from Dr. Jart+, Paula's Choice, and more.",
+            "threshold": "Free with $30 purchase.* ",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Online"
+            ],
+            "legalCopy": "*Exclusions/terms apply. ",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "skuList": [
+              {
+                "skuId": "2900744",
+                "listPrice": "FREE",
+                "isOutOfStock": true,
+                "productName": "Cicapair Color Correcting Treatment-5 ml",
+                "brandName": "Dr. Jart+",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/dr-jart-cicapair-color-correcting-treatment-5-ml-P518931?skuId=2900744",
+                "starRatings": 0.0,
+                "reviewsCount": 0,
+                "productId": "P518931"
+              },
+              {
+                "skuId": "2812311",
+                "listPrice": "FREE",
+                "productName": "Pro Retinaldehyde Dual-Retinoid Treatment Deluxe-3 ml",
+                "brandName": "Paula's Choice",
+                "actionFlags": {
+                  "backInStockReminderStatus": "notApplicable"
+                },
+                "biExclusiveLevel": "none",
+                "targetUrl": "/product/paulas-choice-pro-retinaldehyde-dual-retinoid-treatment-deluxe-3-ml-P518933?skuId=2812311",
+                "starRatings": 4.0,
+                "reviewsCount": 1,
+                "productId": "P518933"
+              }
+            ],
+            "media": {
+              "sid": "beautyoffers_offerbanner_promogwp_slotting_broadcast_us_rwd_promo_081025_SKINNEEDS_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-09-SKINNEEDS-app-beauty-offers-promo-banner-us-handoff.jpg",
+              "width": 1000,
+              "height": 750
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 16
+            },
+            "sid": "homepage_offerbanner_merchsale_slotting_autoreplen_broadcast_us_rwd_promo_081125_vegamour15off",
+            "promoId": "Replen_Vegamour_Y_10_parent_0825",
+            "title": "Auto-Replenish Hot Deal ",
+            "description": "Get 15% off\u00b6 select Vegamour subscription deliveries.",
+            "threshold": "Limited Time Only",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider",
+              "Online"
+            ],
+            "legalCopy": "\u00b6Terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "endDate": "2025-09-08T23:59:00.000-07:00",
+            "media": {
+              "sid": "beautyoffers_offerbanner_hair_slotting_autoreplen_vegamour_broadcast_us_ca_rwd_promo_081125_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-08-11-cs-baar-app-beauty-offers-btm-banner-1000x750-us-can.jpg",
+              "width": 1000,
+              "height": 750,
+              "altText": "LIMITED TIME ONLY | \u00b6Terms apply."
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/brand/vegamour",
+              "page": {
+                "type": "PageBrand",
+                "slug": "vegamour"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 24
+            },
+            "sid": "homepage_offerbanner_color_program_julycomplexion_FY254051_broadcast_us_rwd_promo_072425",
+            "title": "Try Foundation and Concealer at Home",
+            "description": "Get 3 samples online with min spend.* Mix, match & find your perfect shade.",
+            "threshold": "Free with $25 purchase.*",
+            "eligibility": [
+              "Online",
+              "Rouge",
+              "VIB",
+              "Insider"
+            ],
+            "legalCopy": "*Exclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See details",
+            "media": {
+              "sid": "beautyoffers_offerbanner_samples_program_julycomplexion0725_FY254051_broadcast_us_rwd_promo_072425_EVERGREEN_media",
+              "src": "/contentimages/promo/beautyoffers/2025/August/2025-07-24-july-complexion-site-desktop-mobile-app-beauty-offers-page-banner-us.jpg",
+              "width": 1000,
+              "height": 750
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/shop/face-makeup?ref=filters[shoppingPreference]=Samples%20Available",
+              "urlParameters": "?ref=filters[shoppingPreferences]=samplesAvailable",
+              "page": {
+                "type": "PageCategory",
+                "slug": "face-makeup"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 89
+            },
+            "sid": "homepage_offerbanner_multi-world_program_octpaidcomplexion1024_FY243225_us_rwd_promo_101524",
+            "title": "Try Complexion Picks at Home   ",
+            "description": "Get a $10 foundation and concealer sample set and snag $10 off a full-size purchase.  ",
+            "eligibility": [
+              "Online"
+            ],
+            "legalCopy": "\u221eExclusions/terms apply.",
+            "actionLabel": "Shop Now",
+            "detailsActionLabel": "See Details",
+            "endDate": "2025-12-31T00:00:00.000-08:00",
+            "media": {
+              "sid": "beautyoffers_offerbanner_promo_paid_complexion_bag_octpaidcomplexion1024_FY243225_us_101524_media",
+              "src": "/contentimages/promo/beautyoffers/2024/October/2024-paid-foundation-bag-site-desktop-mobile-app-beauty-offers-page-banner-1000x750-us-2821.jpg",
+              "width": 1000,
+              "height": 750
+            },
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "homepage_offerbanner_promo_paid_complexion_bag_octpaidcomplexion1024_FY243225_us_101524_cta_external",
+              "targetScreen": "product",
+              "targetValue": "P514455",
+              "targetUrl": "/product/P514455"
+            },
+            "detailsAction": {
+              "type": "Modal",
+              "sid": "beautyoffers_offerbanner_promo_paid_complexion_bag_octpaidcomplexion1024_FY243225_us_101524_da",
+              "title": "See Details",
+              "width": 3
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 1354
+            },
+            "sid": "homepage_offerbanner_omnipromo_broadcast_us_rwd_promo_090523_sdu_evergreen",
+            "title": "Same-Day Unlimited ",
+            "description": "The subscription that delivers your beauty today\u2014every time you shop. Try it FREE\u00a7 for 30 days.",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider"
+            ],
+            "legalCopy": "\u00a7Terms apply. ",
+            "actionLabel": "Sign Up",
+            "detailsActionLabel": "See Details",
+            "media": {
+              "sid": "homepage_offerbanner_omnipromo_broadcast_us_ca_rwd_promo_090523_sdu_evergreen_media",
+              "src": "/contentimages/promo/beautyoffers/2024/October/2024-omni-journey-der-a-site-desktop-mobile-app-beauty-offers-banner-sdu-us-can-final.jpg",
+              "width": 1000,
+              "height": 750
+            },
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "subscription-same-day-unlimited-P483900_external",
+              "targetScreen": "product",
+              "targetValue": "P483900",
+              "targetUrl": "/product/subscription-same-day-unlimited-P483900"
+            },
+            "detailsAction": {
+              "type": "Modal",
+              "sid": "beautyoffers_offerbanner_omnipromo_broadcast_us_ca_rwd_promo_090523_sdu_evergreen_modal",
+              "title": "Same-Day Unlimited ",
+              "width": 3
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 1322
+            },
+            "sid": "homepage_freeship_us_112122",
+            "title": "Beauty Insiders Get Free Shipping",
+            "description": "It\u2019s fast, reliable, and applies to every order.\u2020",
+            "threshold": "No code needed \u2022 Not a Beauty Insider member?\u00a0",
+            "eligibility": [
+              "Rouge",
+              "VIB",
+              "Insider"
+            ],
+            "legalCopy": "\u2020Exclusions/terms apply.",
+            "actionLabel": "Join Here",
+            "detailsActionLabel": "See details",
+            "media": {
+              "sid": "beautyoffers_offerbanner_omnipromo_broadcast_ca_rwd_promo_112122_freeship_evergreen_media",
+              "src": "/contentimages/promo/freeship2021/2022-08-01-free-ship-site-beauty-offers-page-banner-us-can-final.jpg",
+              "width": 1000,
+              "height": 750
+            },
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "beautyoffers_offerbanner_omnipromo_broadcast_us_ca_rwd_promo_112122_freeship_evergreen_cta_external",
+              "targetScreen": "biprofile",
+              "targetUrl": "/profile/BeautyInsider"
+            },
+            "detailsAction": {
+              "type": "ActionLinkInternal",
+              "sid": "ease_and_convenience_free_shipping_action_link_internal",
+              "page": {
+                "type": "PageContent",
+                "slug": "free-shipping",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "BannerList",
+        "sys": {
+          "publishedVersion": 1208
+        },
+        "sid": "homepage_multi-banner_slideshow_us_rwd_090324",
+        "width": 340,
+        "largeWidth": 545,
+        "gap": "small",
+        "variant": "Large Carousel",
+        "items": [
+          {
+            "sys": {
+              "publishedVersion": 33,
+              "id": "4Z04cSf9PQLF7FKrNhFVdw"
+            },
+            "sid": "homepage_slideshow_promomerch_animation_OHSNAP0825_FY254479_broadcast_us_rwd_banner_082925",
+            "backgroundColor": "#A29BDE",
+            "color": "black",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_slideshow_promomerch_animation_OHSNAP0825_FY254479_broadcast_us_rwd_image_082825",
+              "src": "/contentimages/2025-08-august-oh-snap-site-d-hp-hero-banner-generic-us-kohls-1921.jpg",
+              "width": 1200,
+              "height": 800,
+              "altText": "ONE-DAY DEALS | 50% OFFb | New deals every day. | bExclusions/terms apply. While supplies last."
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Today Only: Get 50% Off Select Beauty",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Save big at Sephora and Sephora at Kohl's until 9/18.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "SHOP NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "beauty-offers",
+              "page": {
+                "type": "PageContent",
+                "slug": "beauty-offers",
+                "layout": {
+                  "type": "LayoutOpen"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 21,
+              "id": "6gWuW2aEimMQcxJLHPJVTu"
+            },
+            "sid": "homepage_slideshow_promofinancial_bonuspoints0825_FY254448_broadcast_us_rwd_banner_082925_lws",
+            "backgroundColor": "#FF7F76",
+            "color": "black",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_slideshow_promofinancial_bonuspoints0825_FY254448_broadcast_us_ca_rwd_image_082925_lws",
+              "src": "/contentimages/2025-08-28-bounceback-q3-bonus-points-for-purchase-bundle-b-site-m-hp-hero-banner-us-can-1200x800-3126.jpg",
+              "width": 1200,
+              "height": 800,
+              "altText": "Spend $75 Earn 500 points\u2021 Ends 9/4 | Enjoy with | + Up to 50% off\u2206. Ends  9/1 | \u2021Exclusions/terms apply. Combinable with other offers. \u2206Available on in-stock merchandise only. "
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Earn 500 Extra Points",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "superscript"
+                          }
+                        ],
+                        "value": "\u2021",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "With $75 min. spend. Use code ",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "500BONUS",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": ". Plus save up to 50%",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "superscript"
+                          }
+                        ],
+                        "value": "\u2206",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": " on top beauty.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "SHOP NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/beauty/sephora-discount",
+              "page": {
+                "type": "PageContent",
+                "slug": "sephora-discount",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 23,
+              "id": "465oxhGGVTTedJS4231fwV"
+            },
+            "sid": "homepage_slideshow_multi-world_slotting_augustnewarrivals_default_us_rwd_banner_082725_v2",
+            "backgroundColor": "#FEB8AC",
+            "color": "black",
+            "mediaPlacement": "top",
+            "personalization": {
+              "context": "465oxhGGVTTedJS4231fwV",
+              "endDate": "2025-09-06T00:00-07:00",
+              "channels": [
+                "web"
+              ],
+              "isEnabled": true,
+              "startDate": "2025-08-23T00:00-07:00",
+              "activeRuleSetId": "75fbd2ca-d9b5-470d-bf6a-2c13cf5cd505"
+            },
+            "media": {
+              "sid": "homepage_slideshow_multi-world_slotting_augustnewarrivals_default_us_rwd_image_082325_v2",
+              "src": "/contentimages/2025-09-25-cs-just-arrived-v4-std-site-hp-hero-banner-us-handoff-1200x800.jpg",
+              "width": 1200,
+              "height": 800
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "The Latest Lineup",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "New beauty from the hottest brands.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "SHOP NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "homepage_new-beauty-products_link_internal",
+              "page": {
+                "type": "PageContent",
+                "slug": "new-beauty-products",
+                "layout": {
+                  "type": "LayoutProductGrid"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 3,
+              "id": "7f0SreSLwqBerzLXgFSZMf"
+            },
+            "sid": "homepage_slideshow_hair_program_julyhair0725_FY254050_broadcast_us_rwd_banner_082825_V4frizz",
+            "backgroundColor": "#6BB1BD",
+            "color": "black",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_slideshow_hair_program_julyhair0725_FY254050_broadcast_us_ca_rwd_image_082125_V4frizz",
+              "src": "/contentimages/2025-july-hair-site-desktop-universal-new-for-you-frizz-3062-image-only.jpg",
+              "width": 1200,
+              "height": 800
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Lather, Rinse, Reduce Frizz",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Get smoother strands with better shampoo & conditioner.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "SHOP NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "homepage_best-shampoos_link",
+              "page": {
+                "type": "PageContent",
+                "slug": "best-shampoos",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ProductList",
+        "sys": {
+          "publishedVersion": 33
+        },
+        "sid": "homepage_productlist_SellingFast_us_app_092022_ios",
+        "title": "Selling Fast",
+        "grouping": [
+          "Show Price",
+          "Show Marketing Flags",
+          "Show Ranking Numbers"
+        ],
+        "variant": "Small Carousel",
+        "skuList": [
+          {
+            "skuId": "1966258",
+            "listPrice": "$24.00",
+            "variationValue": "Berry",
+            "productName": "Lip Sleeping Mask Intense Hydration with Vitamin C",
+            "brandName": "LANEIGE",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/lip-sleeping-mask-P420652?skuId=1966258",
+            "starRatings": 4.3205,
+            "reviewsCount": 21296,
+            "productId": "P420652"
+          },
+          {
+            "skuId": "2587319",
+            "listPrice": "$49.00",
+            "variationValue": "01 Silky Rose",
+            "variationDesc": "a soft rosewood",
+            "productName": "Luminous Matte Powder Blush",
+            "brandName": "Gucci",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/luminous-matte-beauty-blush-P502188?skuId=2587319",
+            "starRatings": 4.7095,
+            "reviewsCount": 771,
+            "productId": "P502188"
+          },
+          {
+            "skuId": "2407336",
+            "listPrice": "$28.00",
+            "variationValue": "3 Tan",
+            "productName": "Mini Airbrush Flawless Finish Refillable Blurring & Setting Powder",
+            "brandName": "Charlotte Tilbury",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/charlotte-tilbury-mini-airbrush-flawless-finish-setting-powder-P467754?skuId=2407336",
+            "starRatings": 3.9971,
+            "reviewsCount": 1375,
+            "productId": "P467754"
+          },
+          {
+            "skuId": "2640159",
+            "listPrice": "$22.00",
+            "salePrice": "$15.40",
+            "variationValue": "Happy",
+            "variationDesc": "cool pink",
+            "productName": "Soft Pinch Tinted Lip Oil Stain",
+            "brandName": "Rare Beauty by Selena Gomez",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/rare-beauty-by-selena-gomez-soft-pinch-tinted-lip-oil-P505568?skuId=2640159",
+            "starRatings": 4.087,
+            "reviewsCount": 4897,
+            "productId": "P505568"
+          },
+          {
+            "skuId": "2172310",
+            "listPrice": "$34.00",
+            "variationValue": "Madeleine",
+            "variationDesc": "L2.3 - light with neutral undertones",
+            "productName": "Radiant Creamy Concealer with Hydrating Medium Coverage",
+            "brandName": "NARS",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/radiant-creamy-concealer-P377873?skuId=2172310",
+            "starRatings": 4.3152,
+            "reviewsCount": 14684,
+            "productId": "P377873"
+          },
+          {
+            "skuId": "1925965",
+            "listPrice": "$22.00",
+            "variationValue": "Fenty Glow",
+            "variationDesc": "shimmering rose nude",
+            "productName": "Gloss Bomb Universal Lip Luminizer",
+            "brandName": "Fenty Beauty by Rihanna",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/gloss-bomb-universal-lip-luminizer-P67988453?skuId=1925965",
+            "starRatings": 4.6098,
+            "reviewsCount": 13343,
+            "productId": "P67988453"
+          },
+          {
+            "skuId": "2597037",
+            "listPrice": "$49.00",
+            "variationValue": "570 Deep Cool",
+            "variationDesc": "deep with cool golden undertones",
+            "productName": "Triclone Skin Tech Medium Coverage Foundation with Fermented Arnica",
+            "brandName": "HAUS LABS BY LADY GAGA",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185?skuId=2597037",
+            "badgeAltText": "allure 2023 Clean Beauty Winner",
+            "badge": "allure-2023-clean-badge",
+            "starRatings": 4.0196,
+            "reviewsCount": 4290,
+            "productId": "P502185"
+          },
+          {
+            "skuId": "2210722",
+            "listPrice": "$22.80",
+            "variationValue": "2 oz/ 60 mL",
+            "productName": " Multi-Peptide Serum for Hair Density for Thicker, Fuller Looking Hair",
+            "brandName": "The Ordinary",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/multi-peptide-serum-for-hair-density-P442831?skuId=2210722",
+            "starRatings": 4.0047,
+            "reviewsCount": 1912,
+            "productId": "P442831"
+          },
+          {
+            "skuId": "2495497",
+            "listPrice": "$24.00",
+            "variationValue": "Vanilla Beige - sheer beige",
+            "productName": "Lip Butter Balm Treatment for Hydration + Nourishing Shine",
+            "brandName": "Summer Fridays",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/summer-fridays-lip-butter-balm-P455936?skuId=2495497",
+            "badgeAltText": "allure 2024 Best of Beauty Award Winner",
+            "badge": "allure-2024-bestofbeauty",
+            "starRatings": 4.3105,
+            "reviewsCount": 15822,
+            "productId": "P455936"
+          },
+          {
+            "skuId": "2031508",
+            "listPrice": "$13.00",
+            "variationValue": "8 oz/ 240 mL",
+            "productName": "Glycolic Acid 7% Exfoliating and Brightening Daily Toner",
+            "brandName": "The Ordinary",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/the-ordinary-deciem-glycolic-acid-7-toning-solution-P427406?skuId=2031508",
+            "starRatings": 4.3444,
+            "reviewsCount": 4257,
+            "productId": "P427406"
+          },
+          {
+            "skuId": "2404846",
+            "listPrice": "$36.00",
+            "variationValue": "1.35 oz/ 40 mL",
+            "productName": "Watermelon Glow Niacinamide Dew Drops Serum",
+            "brandName": "Glow Recipe",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/glow-recipe-watermelon-glow-niacinamide-dew-drops-P466123?skuId=2404846",
+            "badgeAltText": "Clean plus Planet Aware",
+            "badge": "clean-planet-aware",
+            "starRatings": 4.2703,
+            "reviewsCount": 5083,
+            "productId": "P466123"
+          },
+          {
+            "skuId": "2421360",
+            "listPrice": "$37.00",
+            "variationValue": "4 oz/ 118 mL",
+            "productName": "Skin Perfecting 2% BHA Exfoliating Toner for Clear Skin",
+            "brandName": "Paula's Choice",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/paula-s-choice-skin-perfecting-2-bha-liquid-exfoliant-P469502?skuId=2421360",
+            "starRatings": 4.3099,
+            "reviewsCount": 3969,
+            "productId": "P469502"
+          },
+          {
+            "skuId": "2461812",
+            "listPrice": "$26.00",
+            "variationValue": "3 oz/ 90 mL  ",
+            "productName": "Cheirosa 40 Hair & Body Perfume Mist",
+            "brandName": "Sol de Janeiro",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/sol-de-janeiro-brazilian-crush-cheriosa-40-hair-body-fragrance-mist-P472072?skuId=2461812",
+            "starRatings": 4.5486,
+            "reviewsCount": 3598,
+            "productId": "P472072"
+          },
+          {
+            "skuId": "2249688",
+            "listPrice": "$145.00",
+            "variationValue": "1.7 oz/ 50 mL eau de parfum spray",
+            "productName": "Donna Born In Roma Eau de Parfum with Bourbon Vanilla & Jasmine",
+            "brandName": "Valentino",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/born-in-roma-P449116?skuId=2249688",
+            "starRatings": 4.5115,
+            "reviewsCount": 2700,
+            "productId": "P449116"
+          },
+          {
+            "skuId": "2644532",
+            "listPrice": "$150.00",
+            "variationValue": "3.4 oz / 100 mL eau de toilette spray",
+            "productName": "Miss Dior Blooming Bouquet",
+            "brandName": "DIOR",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/miss-dior-blooming-bouquet-P385477?skuId=2644532",
+            "starRatings": 4.2995,
+            "reviewsCount": 2758,
+            "productId": "P385477"
+          },
+          {
+            "skuId": "1930759",
+            "listPrice": "$39.00",
+            "variationValue": "8.1 oz/ 240 mL",
+            "productName": "Cheirosa 62 Bum Bum Hair & Body Perfume Mist",
+            "brandName": "Sol de Janeiro",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/brazilian-crush-body-fragrance-mist-P417312?skuId=1930759",
+            "starRatings": 4.4257,
+            "reviewsCount": 3298,
+            "productId": "P417312"
+          },
+          {
+            "skuId": "2249696",
+            "listPrice": "$180.00",
+            "variationValue": "3.4 oz/ 100 mL  ",
+            "productName": "Donna Born In Roma Eau de Parfum with Bourbon Vanilla & Jasmine",
+            "brandName": "Valentino",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/born-in-roma-P449116?skuId=2249696",
+            "starRatings": 4.5115,
+            "reviewsCount": 2700,
+            "productId": "P449116"
+          },
+          {
+            "skuId": "2645026",
+            "listPrice": "$176.00",
+            "variationValue": "2.7 oz / 80 mL eau de parfum spray",
+            "productName": "Good Girl Blush Eau de Parfum with Floral Vanilla",
+            "brandName": "Carolina Herrera",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/good-girl-blush-eau-de-parfum-P504996?skuId=2645026",
+            "starRatings": 4.3581,
+            "reviewsCount": 835,
+            "productId": "P504996"
+          },
+          {
+            "skuId": "2539542",
+            "listPrice": "$30.00",
+            "variationValue": "Original",
+            "productName": "Cactus Fruit 3-in-1 Styling Cream",
+            "brandName": "dae",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/dae-cactus-flower-3-in-1-styling-cream-P482668?skuId=2539542",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.5356,
+            "reviewsCount": 1880,
+            "productId": "P482668"
+          },
+          {
+            "skuId": "2677508",
+            "listPrice": "$36.00",
+            "variationValue": "8 oz / 236 mL",
+            "productName": "Nurture Intense Hydration Hair Mask",
+            "brandName": "JVN",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/jvn-nurture-intense-hydration-hair-mask-P506177?skuId=2677508",
+            "badgeAltText": "Clean plus Planet Aware",
+            "badge": "clean-planet-aware",
+            "starRatings": 4.5778,
+            "reviewsCount": 405,
+            "productId": "P506177"
+          }
+        ],
+        "ctorPodId": "hp-selling-fast",
+        "action": {
+          "type": "ActionLinkInternal",
+          "sid": "/shop/value-sets",
+          "page": {
+            "type": "PageCategory",
+            "slug": "value-sets"
+          }
+        }
+      },
+      {
+        "type": "BannerList",
+        "sys": {
+          "publishedVersion": 3663
+        },
+        "sid": "homepage_multi-banner_marketingbanner_us_rwd_092022",
+        "width": 340,
+        "largeWidth": 400,
+        "gap": "large",
+        "variant": "Large Carousel",
+        "blPlacement": "homepage_marketingbanner",
+        "items": [
+          {
+            "sys": {
+              "publishedVersion": 10,
+              "id": "1iYS7tytX09pL9iX8gNueT"
+            },
+            "sid": "homepage_marketingbanner1_skincare_brand-launch_rhode_FY254170_broadcast_us_rwd_banner_082825_comingsoon",
+            "backgroundColor": "#686460",
+            "color": "white",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_slideshow_skincare_brand-launch_rhode_FY254170_broadcast_us_ca_rwd_image_082725_comingsoon",
+              "src": "/contentimages/2025-08-29-donut-app-preview-pre-launch-site-d-hp-hero-banner-us-can-3095-image-only.jpg",
+              "width": 1200,
+              "height": 800,
+              "altText": "NEW & ONLY SEPHORA | get a trial size before launch!*"
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "rhode is coming soon",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Drops 9/4! Free trial size before launch with any purchase at checkout.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "PREVIEW NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/brand/rhode-hailey-bieber",
+              "page": {
+                "type": "PageBrand",
+                "slug": "rhode-hailey-bieber"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 18,
+              "id": "36kBayuw2X2iiJyk5DqCfB"
+            },
+            "sid": "homepage_marketingbanner2_skincare_slotting_acnembc_FY254047_broadcast_us_rwd_banner_082825",
+            "backgroundColor": "#7BBEFF",
+            "color": "black",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_marketingbanner2_skincare_slotting_acnembc_FY254047_broadcast_us_rwd_image_082825",
+              "src": "/contentimages/2025_08_28_cs_acne_hybrid_site_hp_mktg_banner_us_01.jpg",
+              "width": 800,
+              "height": 534
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Get Clearer-Looking Skin",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "New & bestselling picks for acne, dark spots, and pores.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "SHOP NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "best_acne_treatment_buying_guide_actionlink",
+              "page": {
+                "type": "PageContent",
+                "slug": "best-acne-treatment",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 13,
+              "id": "oOLZ1hrUwWZEpnqj6TOz8"
+            },
+            "sid": "homepage_marketingbanner3_multi-world_slotting_trendingonsocial_broadcast_us_rwd_banner_082825",
+            "backgroundColor": "#D13D3D",
+            "color": "white",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_marketingbanner3_multi-world_slotting_trendingonsocial_broadcast_us_app_image_082425",
+              "src": "/contentimages/2025-08-10-app-hp-cntnt-card-us-handoff.jpg",
+              "width": 800,
+              "height": 534
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Worth the Hype",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Snag these trending-on-social picks.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "SHOP NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "Meganav_New_TrendingOnSocial_link_internal",
+              "page": {
+                "type": "PageContent",
+                "slug": "trending-at-sephora",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 198,
+              "id": "68h8WyOUpG4Phcs7G922mL"
+            },
+            "sid": "homepage_marketingbanner4_altpayments_program_creditcard_FY243554_broadcast_us_app_banner_011925",
+            "backgroundColor": "#CFEAE5",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_marketingbanner2_promopoints_program_creditcard_FY243554_targeted_us_rwd_image_070424",
+              "src": "/contentimages/2024-cc-optimizations-bundle-a-site-mobile-home-page-rwd-marketing-banner-option-2-us-final.jpg",
+              "width": 800,
+              "height": 534
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Apply for the Sephora Credit Card",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Combine Credit Card Rewards and Beauty Insider Cash to save even more.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "LEARN MORE \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "creditcard_action_link_internal",
+              "page": {
+                "type": "PageCreditCard",
+                "slug": "/"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ProductList",
+        "sys": {
+          "publishedVersion": 853
+        },
+        "sid": "homepage_productlist_justdropped_us_app_092022_ios",
+        "title": "Just Dropped",
+        "grouping": [
+          "Show Marketing Flags",
+          "Show Price"
+        ],
+        "variant": "Small Carousel",
+        "actionLabel": "Show more",
+        "skuList": [
+          {
+            "skuId": "2597342",
+            "listPrice": "$49.00",
+            "variationValue": "220 Light Medium Warm",
+            "variationDesc": "light medium with warm rosy peach undertones",
+            "productName": "Triclone Skin Tech Medium Coverage Foundation with Fermented Arnica",
+            "brandName": "HAUS LABS BY LADY GAGA",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/triclone-skin-tech-medium-coverage-foundation-with-fermented-arnica-P502185?skuId=2597342",
+            "badgeAltText": "allure 2023 Clean Beauty Winner",
+            "badge": "allure-2023-clean-badge",
+            "starRatings": 4.0196,
+            "reviewsCount": 4290,
+            "productId": "P502185"
+          },
+          {
+            "skuId": "2553188",
+            "listPrice": "$180.00",
+            "variationValue": "3.4 oz / 100 mL  ",
+            "productName": "J'adore Parfum d'Eau",
+            "brandName": "DIOR",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/j-adore-parfum-d-eau-P502013?skuId=2553188",
+            "starRatings": 4.546,
+            "reviewsCount": 1271,
+            "productId": "P502013"
+          },
+          {
+            "skuId": "2587319",
+            "listPrice": "$49.00",
+            "variationValue": "01 Silky Rose",
+            "variationDesc": "a soft rosewood",
+            "productName": "Luminous Matte Powder Blush",
+            "brandName": "Gucci",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/luminous-matte-beauty-blush-P502188?skuId=2587319",
+            "starRatings": 4.7095,
+            "reviewsCount": 771,
+            "productId": "P502188"
+          },
+          {
+            "skuId": "2679561",
+            "listPrice": "$32.00",
+            "variationValue": "Barely Blushing",
+            "variationDesc": "natural flush",
+            "productName": "Soft Pop Plumping Cream Blush Veil",
+            "brandName": "MAKEUP BY MARIO",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/soft-pop-plumping-blush-veil-P506130?skuId=2679561",
+            "starRatings": 4.4588,
+            "reviewsCount": 741,
+            "productId": "P506130"
+          },
+          {
+            "skuId": "2670990",
+            "listPrice": "$26.00",
+            "variationValue": "Petal",
+            "variationDesc": "dusty nude rose",
+            "productName": "Mini Petite Baby Cheeks Lip + Cheek Cream Blush Stick",
+            "brandName": "Westman Atelier",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/westman-atelier-mini-petite-baby-cheeks-lip-cheek-cream-blush-stick-P506281?skuId=2670990",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.2966,
+            "reviewsCount": 236,
+            "productId": "P506281"
+          },
+          {
+            "skuId": "2702173",
+            "listPrice": "$22.00",
+            "variationValue": "Dark Brown",
+            "variationDesc": "for dark brown hair with warm undertones",
+            "productName": "Boy Brow Volumizing Eyebrow Gel-Pomade",
+            "brandName": "Glossier",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/glossier-boy-brow-volumizing-eyebrow-gel-pomade-P504526?skuId=2702173",
+            "starRatings": 4.2222,
+            "reviewsCount": 774,
+            "productId": "P504526"
+          },
+          {
+            "skuId": "2637999",
+            "listPrice": "$24.00",
+            "isOutOfStock": true,
+            "variationValue": "Clear",
+            "isWithBackInStockTreatment": true,
+            "productName": "In Frame Clear Eyebrow Gel",
+            "brandName": "ILIA",
+            "actionFlags": {
+              "backInStockReminderStatus": "inactive"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/ilia-in-frame-clear-eyebrow-gel-p506382-P506382?skuId=2637999",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.4787,
+            "reviewsCount": 587,
+            "productId": "P506382"
+          },
+          {
+            "skuId": "2654770",
+            "listPrice": "$65.00",
+            "variationValue": "1 oz / 30 mL",
+            "productName": "Molecular Repair Hair Oil",
+            "brandName": "K18 Biomimetic Hairscience",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/k18-hair-molecular-repair-hair-oil-P505266?skuId=2654770",
+            "badgeAltText": "allure 2023 Best of Beauty Award Winner",
+            "badge": "allure-2023-bestofbeauty-badge",
+            "starRatings": 4.4946,
+            "reviewsCount": 1114,
+            "productId": "P505266"
+          },
+          {
+            "skuId": "2673556",
+            "listPrice": "$62.00",
+            "variationValue": "3.04 oz / 90 ml",
+            "productName": "Nutritive 8H Magic Night Serum Hydrating Treatment for Dry Hair",
+            "brandName": "K\u00e9rastase",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/kerastase-nutritive-8h-magic-night-serum-hydrating-treatment-for-dry-hair-P506524?skuId=2673556",
+            "starRatings": 4.4171,
+            "reviewsCount": 1182,
+            "productId": "P506524"
+          },
+          {
+            "skuId": "2640357",
+            "listPrice": "$26.00",
+            "variationValue": "6.76 oz / 200 mL",
+            "productName": "Watermelon Glow AHA Pink Dream Body Cream",
+            "brandName": "Glow Recipe",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/glow-recipe-watermelon-glow-aha-pink-dream-body-cream-P469211?skuId=2640357",
+            "badgeAltText": "Clean plus Planet Aware",
+            "badge": "clean-planet-aware",
+            "starRatings": 4.4297,
+            "reviewsCount": 2006,
+            "productId": "P469211"
+          },
+          {
+            "skuId": "2674133",
+            "listPrice": "$40.00",
+            "variationValue": "DreamBeam",
+            "productName": "DreamBeam Silicone-Free Mineral Sunscreen SPF 40 with Ceramides and Peptides",
+            "brandName": "Kosas",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/dreambeam-moisturizing-mineral-sunscreen-spf-40-with-ceramides-and-peptides-P505327?skuId=2674133",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 3.7799,
+            "reviewsCount": 1486,
+            "productId": "P505327"
+          },
+          {
+            "skuId": "2681799",
+            "listPrice": "$24.00",
+            "variationValue": "Malibu",
+            "variationDesc": "cool mauvey pink",
+            "productName": "Wet Stick Moisturizing Shiny Sheer Lipstick with Ceramides",
+            "brandName": "Kosas",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/kosas-wet-stick-moisture-lip-shine-P505694?skuId=2681799",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.2975,
+            "reviewsCount": 706,
+            "productId": "P505694"
+          },
+          {
+            "skuId": "2678472",
+            "listPrice": "$26.00",
+            "variationValue": "Juicy Watermelon",
+            "variationDesc": "a punchy watermelon",
+            "productName": "Forget the Filler Lip-Plumping Line-Smoothing Tinted Lip Balm",
+            "brandName": "LAWLESS",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/lawless-forget-filler-lip-plumping-line-smoothing-tinted-lip-balm-P504609?skuId=2678472",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.2893,
+            "reviewsCount": 1953,
+            "productId": "P504609"
+          },
+          {
+            "skuId": "2685527",
+            "listPrice": "$32.00",
+            "productName": "The Cleanse Soft Foaming Cleanser + Make Up Remover",
+            "brandName": "ILIA",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/the-cleanse-soft-foaming-cleanser-make-up-remover-P506563?skuId=2685527",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.1548,
+            "reviewsCount": 562,
+            "productId": "P506563"
+          },
+          {
+            "skuId": "2640001",
+            "listPrice": "$115.00",
+            "salePrice": "$74.75",
+            "variationValue": "1.7 / 50 ml eau de parfum spray",
+            "productName": "FLORIST Eau de Parfum",
+            "brandName": "Ellis Brooklyn",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/florist-eau-de-parfum-P505218?skuId=2640001",
+            "badgeAltText": "allure 2023 Clean Beauty Winner",
+            "badge": "allure-2023-clean-badge",
+            "starRatings": 4.3373,
+            "reviewsCount": 166,
+            "productId": "P505218"
+          },
+          {
+            "skuId": "2704005",
+            "listPrice": "$35.00",
+            "salePrice": "$24.50",
+            "variationValue": ".34 oz / 10 mL eau de toilette spray",
+            "productName": "Dolce Violet Eau de Toilette Travel Spray",
+            "brandName": "Dolce&Gabbana",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/dolce-violet-eau-de-toilette-travel-spray-P506533?skuId=2704005",
+            "starRatings": 4.3182,
+            "reviewsCount": 22,
+            "productId": "P506533"
+          },
+          {
+            "skuId": "2705333",
+            "listPrice": "$100.00",
+            "variationValue": "1.7 oz / 50 ml eau de parfum spray",
+            "isOnlineOnly": true,
+            "productName": "THE WEDDING VELVET SANTAL | 35 Eau de Parfum",
+            "brandName": "KAYALI",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/the-wedding-velvet-santal-35-P506530?skuId=2705333",
+            "starRatings": 4.6126,
+            "reviewsCount": 253,
+            "productId": "P506530"
+          },
+          {
+            "skuId": "2648889",
+            "listPrice": "$168.00",
+            "variationValue": "3.4 oz / 100 mL  spray",
+            "productName": "Sakura Cherry Blossom",
+            "brandName": "Jo Malone London",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/jo-malone-london-sakura-cherry-blossom-P482018?skuId=2648889",
+            "starRatings": 3.25,
+            "reviewsCount": 136,
+            "productId": "P482018"
+          },
+          {
+            "skuId": "2590503",
+            "listPrice": "$170.00",
+            "variationValue": "3.4 oz / 100 mL eau de toilette spray  ",
+            "productName": "REPLICA\u2019 On A Date Eau de Toilette with Rose & Black Currant",
+            "brandName": "Maison Margiela",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/maison-margiela-replica-on-date-P503905?skuId=2590503",
+            "starRatings": 3.8724,
+            "reviewsCount": 588,
+            "productId": "P503905"
+          },
+          {
+            "skuId": "2673556",
+            "listPrice": "$62.00",
+            "variationValue": "3.04 oz / 90 ml",
+            "productName": "Nutritive 8H Magic Night Serum Hydrating Treatment for Dry Hair",
+            "brandName": "K\u00e9rastase",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/kerastase-nutritive-8h-magic-night-serum-hydrating-treatment-for-dry-hair-P506524?skuId=2673556",
+            "starRatings": 4.4171,
+            "reviewsCount": 1182,
+            "productId": "P506524"
+          },
+          {
+            "skuId": "2687689",
+            "listPrice": "$44.00",
+            "variationValue": "6 oz / 177 ml",
+            "productName": "Stargloss Shine Hair Gloss Treatment",
+            "brandName": "dae",
+            "actionFlags": {
+              "backInStockReminderStatus": "notApplicable"
+            },
+            "biExclusiveLevel": "none",
+            "targetUrl": "/product/dae-stargloss-shine-hair-gloss-treatment-P506779?skuId=2687689",
+            "badgeAltText": "Clean at Sephora",
+            "badge": "clean-at-sephora",
+            "starRatings": 4.1888,
+            "reviewsCount": 482,
+            "productId": "P506779"
+          }
+        ],
+        "ctorPodId": "hp-just-dropped",
+        "action": {
+          "type": "ActionLinkInternal",
+          "sid": "/sale",
+          "page": {
+            "type": "PageSearch",
+            "keyword": "sale"
+          }
+        }
+      },
+      {
+        "type": "RewardList",
+        "sys": {
+          "publishedVersion": 50
+        },
+        "sid": "homepage_rewardlist_us_rwd_092022",
+        "biRewards": [
+          {
+            "skuId": "2898674",
+            "brandName": "Moroccanoil",
+            "productId": "P124402",
+            "productName": "Body Polishing Scrub",
+            "fullSizeSkuId": "2612836",
+            "fullSizeProductId": "P502662",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P502662?preferedSku=2612836",
+            "biType": "100 Points",
+            "targetUrl": "/product/moroccanoil-body-polishing-scrub-P502662?skuId=2612836",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2849511",
+            "brandName": "Farmacy",
+            "productId": "P124402",
+            "productName": "Honey Halo Ultra-Hydrating Ceramide Moisturizer",
+            "fullSizeSkuId": "2369957",
+            "fullSizeProductId": "P463036",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P463036?preferedSku=2369957",
+            "biType": "100 Points",
+            "targetUrl": "/product/farmacy-honey-halo-ultra-hydrating-ceramide-moisturizer-P463036?skuId=2369957",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2827038",
+            "brandName": "Dr. Dennis Gross Skincare",
+            "productId": "P124402",
+            "productName": "Alpha Beta\u00ae Extra Strength Daily Peel Pads",
+            "fullSizeSkuId": "1499482",
+            "fullSizeProductId": "P269122",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P269122?preferedSku=1499482",
+            "biType": "100 Points",
+            "targetUrl": "/product/alpha-beta-peel-extra-strength-daily-peel-P269122?skuId=1499482",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2769651",
+            "brandName": "K18 Biomimetic Hairscience",
+            "productId": "P124402",
+            "productName": "Molecular Repair Hair Oil",
+            "fullSizeSkuId": "2654770",
+            "fullSizeProductId": "P505266",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P505266?preferedSku=2654770",
+            "biType": "100 Points",
+            "targetUrl": "/product/k18-hair-molecular-repair-hair-oil-P505266?skuId=2654770",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2901767",
+            "brandName": "Peter Thomas Roth",
+            "productId": "P124402",
+            "productName": "Water Drench Broad Spectrum SPF 45 Hyaluronic Sheer Tint Moisturizer",
+            "fullSizeSkuId": "2866036",
+            "fullSizeProductId": "P516481",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P516481?preferedSku=2866036",
+            "biType": "100 Points",
+            "targetUrl": "/product/water-drench-broad-spectrum-spf-45-hyaluronic-sheer-tint-moisturizer-P516481?skuId=2866036",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2881670",
+            "brandName": "innisfree",
+            "productId": "P124402",
+            "productName": "Daily UV Defense Mineral Sunscreen Broad Spectrum SPF 45",
+            "fullSizeSkuId": "2742443",
+            "fullSizeProductId": "P510354",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P510354?preferedSku=2742443",
+            "biType": "100 Points",
+            "targetUrl": "/product/innisfree-daily-uv-defense-mineral-sunscreen-broad-spectrum-spf-45-P510354?skuId=2742443",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2902245",
+            "brandName": "Summer Fridays",
+            "productId": "P124402",
+            "productName": "Rich Cushion Cream Ultra Plumping Moisturizer",
+            "fullSizeSkuId": "2703726",
+            "fullSizeProductId": "P506690",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P506690?preferedSku=2703726",
+            "biType": "100 Points",
+            "targetUrl": "/product/rich-cushion-cream-ultra-plumping-moisturizer-P506690?skuId=2703726",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2813582",
+            "brandName": "Fenty Beauty by Rihanna",
+            "productId": "P124402",
+            "productName": "Hydra Vizor Refillable Invisible Face Moisturizer SPF 30 with Niacinamide",
+            "fullSizeSkuId": "2418887",
+            "fullSizeProductId": "P476485",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P476485?preferedSku=2418887",
+            "biType": "100 Points",
+            "targetUrl": "/product/fenty-skin-rihanna-hydra-vizor-refill-P476485?skuId=2418887",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2827087",
+            "brandName": "Kiehl's Since 1851",
+            "productId": "P124402",
+            "productName": "Rare Earth Deep Pore Minimizing Clay Face Mask for Oily Skin",
+            "fullSizeSkuId": "1989359",
+            "fullSizeProductId": "P422002",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P422002?preferedSku=1989359",
+            "biType": "100 Points",
+            "targetUrl": "/product/rare-earth-deep-pore-cleansing-mask-P422002?skuId=1989359",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2580520",
+            "brandName": "Youth To The People",
+            "productId": "P124402",
+            "productName": "Superfood Air-Whip Lightweight Face Moisturizer with Hyaluronic Acid",
+            "fullSizeSkuId": "1863604",
+            "fullSizeProductId": "P411388",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P411388?preferedSku=1863604",
+            "biType": "100 Points",
+            "targetUrl": "/product/kale-spinach-hyaluronic-acid-age-prevention-cream-P411388?skuId=1863604",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2892818",
+            "brandName": "fresh",
+            "productId": "P124402",
+            "productName": "Soy Hydrating Gentle Face Cleanser",
+            "fullSizeSkuId": "2534675",
+            "fullSizeProductId": "P7880",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P7880?preferedSku=2534675",
+            "biType": "100 Points",
+            "targetUrl": "/product/soy-face-cleanser-P7880?skuId=2534675",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2852796",
+            "brandName": "Isle of Paradise",
+            "productId": "P124402",
+            "productName": "Self-Tan Face Drops",
+            "fullSizeSkuId": "2871952",
+            "fullSizeProductId": "P516435",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P516435?preferedSku=2871952",
+            "biType": "100 Points",
+            "targetUrl": "/product/self-tan-face-drops-P516435?skuId=2871952",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2706828",
+            "brandName": "Fenty Beauty by Rihanna",
+            "productId": "P124402",
+            "productName": "Hella Thicc Volumizing Mascara",
+            "fullSizeSkuId": "2656130",
+            "fullSizeProductId": "P505055",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P505055?preferedSku=2656130",
+            "biType": "100 Points",
+            "targetUrl": "/product/fenty-hella-thicc-volumizing-mascara-P505055?skuId=2656130",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2504785",
+            "brandName": "Origins",
+            "productId": "P124402",
+            "productName": "GinZing\u2122 Energizing Gel Cream with Caffeine & Niacinamide",
+            "fullSizeSkuId": "2600773",
+            "fullSizeProductId": "P502046",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P502046?preferedSku=2600773",
+            "biType": "100 Points",
+            "targetUrl": "/product/ginzing-tm-energizing-gel-cream-with-caffeine-niacinamide-P502046?skuId=2600773",
+            "biExclusiveLevel": "none"
+          },
+          {
+            "skuId": "2590693",
+            "brandName": "MAKE UP FOR EVER",
+            "productId": "P124402",
+            "productName": "Aqua Resist Color Pencil Eyeliner",
+            "fullSizeSkuId": "2365732",
+            "fullSizeProductId": "P460730",
+            "fullSizeProductUrl": "https://product-rewards-eus1-prod.prod.internal.sephora.com:443/v1/catalog/products/P460730?preferedSku=2365732",
+            "biType": "100 Points",
+            "targetUrl": "/product/make-up-for-ever-aqua-resist-color-pencil-eyeliner-P460730?skuId=2365732",
+            "biExclusiveLevel": "none"
+          }
+        ]
+      },
+      {
+        "type": "SoftLinks",
+        "sys": {
+          "publishedVersion": 336
+        },
+        "sid": "homepage_soft-links_guidance_us_rwd_122624",
+        "title": "Need a Little Guidance?",
+        "variant": "tile",
+        "displayVariant": "Carousel",
+        "isHugWidth": true,
+        "text": {
+          "json": {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "Check out what's popular now.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "items": [
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 15
+            },
+            "sid": "homepage_soft-link_guidance_valuesets_us_ca_rwd_051225",
+            "label": "Value Sets",
+            "media": {
+              "sid": "RWD_soft_link_guidedselling_valuesets_rwd_image_050525",
+              "src": "/contentimages/homepage/091322/Homepage/RWD/value size 32@3x.jpg",
+              "width": 90,
+              "height": 90
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "ValueSets_Internal",
+              "page": {
+                "type": "PageCategory",
+                "slug": "value-sets"
+              }
+            }
+          },
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 88
+            },
+            "sid": "homepage_soft-links_guidance_Fragrance_us_ca_tile_rwd_050525",
+            "label": "Fragrance",
+            "media": {
+              "sid": "RWD_soft_link_guidedselling_Fragrance_rwd_image_050525",
+              "src": "/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_fragrance_bottle_us_ca_rwd_slice.jpg",
+              "width": 90,
+              "height": 90
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "fragrance_link_internal",
+              "page": {
+                "type": "PageCategory",
+                "slug": "fragrance"
+              }
+            }
+          },
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 39
+            },
+            "sid": "homepage_soft-link_guidance_SmartSkinScan_us_ca_app_tile_082025",
+            "label": "Smart Skin Scan",
+            "media": {
+              "sid": "homepage_soft-link_guidance_SmartSkinScan_us_ca_rwd_image_082025",
+              "src": "/contentimages/chatbot-skincare.JPG",
+              "width": 90,
+              "height": 90
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/beauty/skin-analysis-tool",
+              "page": {
+                "type": "PageContent",
+                "slug": "skin-analysis-tool",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 119
+            },
+            "sid": "homepage_soft-links_guidance_lip_us_ca_rwd_tile_122624",
+            "label": "Lip",
+            "media": {
+              "sid": "homepage_soft-links_guidance_Lip_us_image_rwd_121224",
+              "src": "/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_makeup_mascara_lipstick_us_ca_rwd_slice.jpg",
+              "width": 90,
+              "height": 90
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "homepage_lips-makeup_link_internal",
+              "page": {
+                "type": "PageCategory",
+                "slug": "lips-makeup"
+              }
+            }
+          },
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 76
+            },
+            "sid": "homepage_soft-link_guidance_mini15AndUnder_us_ca_rwd_051225",
+            "label": "Minis $15 And Under",
+            "media": {
+              "sid": "RWD_soft_link_guidedselling_Minis15AndUnder_rwd_image_050525",
+              "src": "/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_minis_us_ca_rwd_slice.png",
+              "width": 90,
+              "height": 90
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "MiniSize_15AndUnder_link_internal",
+              "urlParameters": "?pl=min&ph=15&ptype=manual",
+              "page": {
+                "type": "PageCategory",
+                "slug": "travel-size-toiletries"
+              }
+            }
+          },
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 155
+            },
+            "sid": "homepage_soft-links_guidance_Foundation_us_ca_rwd_tile_111924",
+            "label": "Foundation",
+            "media": {
+              "sid": "homepage_soft-link_featuredcategories_Foundation_us_rwd_image_092022",
+              "src": "/contentimages/homepage/060222/Homepage/RWD/CategoryTiles/homepage_featured_category_tile_samples_32_us_ca_rwd_slice.png",
+              "width": 96,
+              "height": 96
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "foundationmbc0724_FY243217_link_internal",
+              "urlParameters": "?sortBy=BEST_SELLING",
+              "page": {
+                "type": "PageCategory",
+                "slug": "foundation-makeup"
+              }
+            }
+          },
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 153
+            },
+            "sid": "homepage_soft-link_guidance_trendingonsocial_us_ca_rwd_tile_111924",
+            "label": "Trending on Social",
+            "media": {
+              "sid": "homepage_soft-link_featuredcategories_trendingonsocial_us_ca_rwd_image_040423",
+              "src": "/contentimages/homepage/010124/star%20trending.JPG",
+              "width": 96,
+              "height": 96
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "Meganav_New_TrendingOnSocial_link_internal",
+              "page": {
+                "type": "PageContent",
+                "slug": "trending-at-sephora",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          },
+          {
+            "type": "Link",
+            "sys": {
+              "publishedVersion": 176
+            },
+            "sid": "homepage_soft-link_guidance_sale_us_ca_rwd_tile_111924",
+            "label": "Sale",
+            "media": {
+              "sid": "homepage_soft-link_featuredcategories_sale_us_rwd_image_092022",
+              "src": "/contentimages/categorybanners/RWD/icons/sale%2032@3x.jpg",
+              "width": 90,
+              "height": 90
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "Sale Page",
+              "page": {
+                "type": "PageSearch",
+                "keyword": "sale"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "BannerList",
+        "sys": {
+          "publishedVersion": 729
+        },
+        "sid": "homepage_multi-banner_list_reassurancebanner_us_rwd_092022",
+        "width": 320,
+        "largeWidth": 400,
+        "gap": "large",
+        "items": [
+          {
+            "sys": {
+              "publishedVersion": 6,
+              "id": "7vUCEpme14UyoYPd6j22P5"
+            },
+            "sid": "homepage_reassurancebanner1_dei_program_DiversityEquityInclusion_broadcast_us_banner_rwd_081625",
+            "backgroundColor": "#F2F2F2",
+            "mediaPlacement": "top",
+            "action": {
+              "type": "ActionLinkExternal",
+              "sid": "homepage_reassurancebanner_1_multi-world_program_DiversityEquityInclusion_us_rwd_link_112122",
+              "targetScreen": "webview",
+              "targetValue": "https://www.inside-sephora.com/en/usa/diversity-equity-inclusion",
+              "targetUrl": "https://www.inside-sephora.com/en/usa/diversity-equity-inclusion"
+            },
+            "media": {
+              "sid": "homepage_reassurancebanner1_dei_program_DiversityEquityInclusion_us_ca_rwd_image_04012025",
+              "src": "/contentimages/2023-06-02-RWD-homepage-site-desktop-mobile-home-page-marketing-banner-800x534-dei-release.jpg",
+              "width": 800,
+              "height": 534
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Diversity, Equity & Inclusion",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Our commitment to providing an inclusive beauty community.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "LEARN MORE \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 27,
+              "id": "5CjRIQzuCmRKDJhiNmcGtL"
+            },
+            "sid": "homepage_reassurancebanner2_merchsale_program_autoreplen_broadcast_us_rwd_banner_082825_Vegamour",
+            "backgroundColor": "#FA8985",
+            "color": "black",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_reassurancebanner2_merchsale_program_autoreplen_broadcast_us_ca_rwd_image_082825_Vegamour",
+              "src": "/contentimages/2025-08-11-cs-baar-site-hp-mktg-banner-us-can_01.jpg",
+              "width": 800,
+              "height": 534
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Auto-Replenish Hot Deal",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Get 15% off",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "superscript"
+                          }
+                        ],
+                        "value": "\u00b6 ",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "select ",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Vegamour subscription deliveries",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": ".",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "SHOP NOW \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "/brand/vegamour",
+              "page": {
+                "type": "PageBrand",
+                "slug": "vegamour"
+              }
+            }
+          },
+          {
+            "sys": {
+              "publishedVersion": 22,
+              "id": "1FDggiy455NkJvBPyzR534"
+            },
+            "sid": "homepage_reassurancebanner3_omnibau_program_Ease&Convenience_broadcast_us_rwd_banner_082225",
+            "backgroundColor": "#BDDCEE",
+            "mediaPlacement": "top",
+            "media": {
+              "sid": "homepage_reassurancebanner2_omnibau_program_Ease&Convenience_broadcast_us_ca_rwd_image_103024",
+              "src": "/contentimages/2024-omni-journey-der-a-site-desktop-mobile-app-home-page-rwd-marketing-banner-omni-us-can-final.jpg",
+              "width": 800,
+              "height": 534
+            },
+            "text": {
+              "json": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Beauty on Demand",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "heading-3"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "Fast and easy options that work for you. ",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "value": "LEARN MORE \u25b8",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              }
+            },
+            "action": {
+              "type": "ActionLinkInternal",
+              "sid": "pick_up_delivery_internal",
+              "page": {
+                "type": "PageContent",
+                "slug": "pick-up-delivery-options",
+                "layout": {
+                  "type": "LayoutBuyingGuide"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "UgcWidget",
+        "widgetId": "57022406"
+      }
+    ],
+    "persistentBanner": [
+      {
+        "type": "Banner",
+        "sys": {
+          "publishedVersion": 33,
+          "id": "4QBxcgwkCBtiJL9hewVlWH"
+        },
+        "sid": "global_persistentbanner1_merchsale_program_lws0925_FY254495_broadcast_us_rwd_banner_082825",
+        "backgroundColor": "#BED8F1",
+        "mediaPlacement": "top",
+        "personalization": {
+          "context": "4QBxcgwkCBtiJL9hewVlWH",
+          "endDate": "2025-10-08T13:20-07:00",
+          "channels": [
+            "web",
+            "iPhoneApp",
+            "androidApp"
+          ],
+          "isEnabled": true,
+          "startDate": "2025-06-03T11:06-07:00",
+          "isMABEnabled": true,
+          "isNBOEnabled": true,
+          "activeRuleSetId": "73d7843d-ced9-4db5-a584-860cb1990d3e"
+        },
+        "text": {
+          "json": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {},
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Up to 50% off",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "\u2206",
+                    "marks": [
+                      {
+                        "type": "superscript"
+                      }
+                    ],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " ",
+                    "marks": [],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "select beauty.",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " Ends 9/1. ",
+                    "marks": [],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "\u2206",
+                    "marks": [
+                      {
+                        "type": "superscript"
+                      }
+                    ],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "Available on in-stock merchandise only. ",
+                    "marks": [],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "SHOP NOW \u25b8",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {}
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "action": {
+          "type": "ActionLinkInternal",
+          "sid": "sale_link_action_internal",
+          "page": {
+            "type": "PageSearch",
+            "keyword": "sale"
+          }
+        }
+      }
+    ]
+  }
+}
